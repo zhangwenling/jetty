@@ -1,0 +1,672 @@
+[org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:187)] [2014-06-18 09:54:06,582] :
+Root WebApplicationContext: initialization started
+[org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:456)] [2014-06-18 09:54:06,622] :
+Refreshing Root WebApplicationContext: startup date [Wed Jun 18 09:54:06 CST 2014]; root of context hierarchy
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2014-06-18 09:54:06,667] :
+Loading XML bean definitions from URL [file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/classes/applicationContext.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2014-06-18 09:54:06,866] :
+Loading XML bean definitions from file [D:\project\xctb\trunk\code\xctb\WebRoot\WEB-INF\classes\biz\app\sp-app.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2014-06-18 09:54:06,890] :
+Loading XML bean definitions from file [D:\project\xctb\trunk\code\xctb\WebRoot\WEB-INF\classes\biz\document\sp-document.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2014-06-18 09:54:06,905] :
+Loading XML bean definitions from file [D:\project\xctb\trunk\code\xctb\WebRoot\WEB-INF\classes\biz\group\sp-group.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2014-06-18 09:54:06,919] :
+Loading XML bean definitions from file [D:\project\xctb\trunk\code\xctb\WebRoot\WEB-INF\classes\biz\log\sp-log.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2014-06-18 09:54:06,932] :
+Loading XML bean definitions from file [D:\project\xctb\trunk\code\xctb\WebRoot\WEB-INF\classes\biz\notice\sp-notice.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2014-06-18 09:54:06,947] :
+Loading XML bean definitions from file [D:\project\xctb\trunk\code\xctb\WebRoot\WEB-INF\classes\biz\sys\sp-sys.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2014-06-18 09:54:06,964] :
+Loading XML bean definitions from file [D:\project\xctb\trunk\code\xctb\WebRoot\WEB-INF\classes\biz\sys\sp-user.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2014-06-18 09:54:06,976] :
+Loading XML bean definitions from file [D:\project\xctb\trunk\code\xctb\WebRoot\WEB-INF\classes\biz\xctb\sp-biz.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2014-06-18 09:54:06,985] :
+Loading XML bean definitions from file [D:\project\xctb\trunk\code\xctb\WebRoot\WEB-INF\classes\biz\xctb\sp-dao.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2014-06-18 09:54:06,995] :
+Loading XML bean definitions from file [D:\project\xctb\trunk\code\xctb\WebRoot\WEB-INF\classes\biz\xctb\sp-xctb-biz.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2014-06-18 09:54:07,011] :
+Loading XML bean definitions from file [D:\project\xctb\trunk\code\xctb\WebRoot\WEB-INF\classes\biz\xctb\sp-xctb-dao.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2014-06-18 09:54:07,021] :
+Loading XML bean definitions from file [D:\project\xctb\trunk\code\xctb\WebRoot\WEB-INF\classes\biz\xctb\sp-xtcb-action.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2014-06-18 09:54:07,032] :
+Loading XML bean definitions from file [D:\project\xctb\trunk\code\xctb\WebRoot\WEB-INF\classes\webservice\sp-service.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2014-06-18 09:54:07,041] :
+Loading XML bean definitions from class path resource [org/codehaus/xfire/spring/xfire.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2014-06-18 09:54:07,052] :
+Loading XML bean definitions from class path resource [org/codehaus/xfire/spring/customEditors.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2014-06-18 09:54:07,087] :
+Loading XML bean definitions from URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-all-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2014-06-18 09:54:07,095] :
+Loading XML bean definitions from URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-all-1.2.6.jar!/org/codehaus/xfire/spring/customEditors.xml]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2014-06-18 09:54:07,101] :
+Overriding bean definition for bean 'xfire.customEditorConfigurer': replacing [Generic bean: class [org.springframework.beans.factory.config.CustomEditorConfigurer]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/codehaus/xfire/spring/customEditors.xml]] with [Generic bean: class [org.springframework.beans.factory.config.CustomEditorConfigurer]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-all-1.2.6.jar!/org/codehaus/xfire/spring/customEditors.xml]]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2014-06-18 09:54:07,101] :
+Overriding bean definition for bean 'xfire.serviceRegistry': replacing [Generic bean: class [org.codehaus.xfire.service.DefaultServiceRegistry]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/codehaus/xfire/spring/xfire.xml]] with [Generic bean: class [org.codehaus.xfire.service.DefaultServiceRegistry]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-all-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2014-06-18 09:54:07,102] :
+Overriding bean definition for bean 'xfire.transportManager': replacing [Generic bean: class [org.codehaus.xfire.transport.DefaultTransportManager]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=initialize; destroyMethodName=dispose; defined in class path resource [org/codehaus/xfire/spring/xfire.xml]] with [Generic bean: class [org.codehaus.xfire.transport.DefaultTransportManager]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=initialize; destroyMethodName=dispose; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-all-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2014-06-18 09:54:07,102] :
+Overriding bean definition for bean 'xfire': replacing [Generic bean: class [org.codehaus.xfire.DefaultXFire]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/codehaus/xfire/spring/xfire.xml]] with [Generic bean: class [org.codehaus.xfire.DefaultXFire]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-all-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2014-06-18 09:54:07,103] :
+Overriding bean definition for bean 'xfire.typeMappingRegistry': replacing [Generic bean: class [org.codehaus.xfire.aegis.type.DefaultTypeMappingRegistry]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=createDefaultMappings; destroyMethodName=null; defined in class path resource [org/codehaus/xfire/spring/xfire.xml]] with [Generic bean: class [org.codehaus.xfire.aegis.type.DefaultTypeMappingRegistry]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=createDefaultMappings; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-all-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2014-06-18 09:54:07,103] :
+Overriding bean definition for bean 'xfire.aegisBindingProvider': replacing [Generic bean: class [org.codehaus.xfire.aegis.AegisBindingProvider]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/codehaus/xfire/spring/xfire.xml]] with [Generic bean: class [org.codehaus.xfire.aegis.AegisBindingProvider]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-all-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2014-06-18 09:54:07,104] :
+Overriding bean definition for bean 'xfire.serviceFactory': replacing [Generic bean: class [org.codehaus.xfire.service.binding.ObjectServiceFactory]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/codehaus/xfire/spring/xfire.xml]] with [Generic bean: class [org.codehaus.xfire.service.binding.ObjectServiceFactory]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-all-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2014-06-18 09:54:07,104] :
+Overriding bean definition for bean 'xfire.servletController': replacing [Generic bean: class [org.codehaus.xfire.transport.http.XFireServletController]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/codehaus/xfire/spring/xfire.xml]] with [Generic bean: class [org.codehaus.xfire.transport.http.XFireServletController]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-all-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2014-06-18 09:54:07,105] :
+Overriding bean definition for bean 'xfire.messageServiceFactory': replacing [Generic bean: class [org.codehaus.xfire.service.binding.ObjectServiceFactory]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/codehaus/xfire/spring/xfire.xml]] with [Generic bean: class [org.codehaus.xfire.service.binding.ObjectServiceFactory]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-all-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2014-06-18 09:54:07,105] :
+Overriding bean definition for bean 'xfire.messageBindingProvider': replacing [Generic bean: class [org.codehaus.xfire.service.binding.MessageBindingProvider]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/codehaus/xfire/spring/xfire.xml]] with [Generic bean: class [org.codehaus.xfire.service.binding.MessageBindingProvider]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-all-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2014-06-18 09:54:07,106] :
+Loading XML bean definitions from URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-spring-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2014-06-18 09:54:07,115] :
+Loading XML bean definitions from URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-spring-1.2.6.jar!/org/codehaus/xfire/spring/customEditors.xml]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2014-06-18 09:54:07,120] :
+Overriding bean definition for bean 'xfire.customEditorConfigurer': replacing [Generic bean: class [org.springframework.beans.factory.config.CustomEditorConfigurer]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-all-1.2.6.jar!/org/codehaus/xfire/spring/customEditors.xml]] with [Generic bean: class [org.springframework.beans.factory.config.CustomEditorConfigurer]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-spring-1.2.6.jar!/org/codehaus/xfire/spring/customEditors.xml]]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2014-06-18 09:54:07,120] :
+Overriding bean definition for bean 'xfire.serviceRegistry': replacing [Generic bean: class [org.codehaus.xfire.service.DefaultServiceRegistry]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-all-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]] with [Generic bean: class [org.codehaus.xfire.service.DefaultServiceRegistry]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-spring-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2014-06-18 09:54:07,121] :
+Overriding bean definition for bean 'xfire.transportManager': replacing [Generic bean: class [org.codehaus.xfire.transport.DefaultTransportManager]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=initialize; destroyMethodName=dispose; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-all-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]] with [Generic bean: class [org.codehaus.xfire.transport.DefaultTransportManager]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=initialize; destroyMethodName=dispose; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-spring-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2014-06-18 09:54:07,123] :
+Overriding bean definition for bean 'xfire': replacing [Generic bean: class [org.codehaus.xfire.DefaultXFire]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-all-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]] with [Generic bean: class [org.codehaus.xfire.DefaultXFire]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-spring-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2014-06-18 09:54:07,123] :
+Overriding bean definition for bean 'xfire.typeMappingRegistry': replacing [Generic bean: class [org.codehaus.xfire.aegis.type.DefaultTypeMappingRegistry]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=createDefaultMappings; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-all-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]] with [Generic bean: class [org.codehaus.xfire.aegis.type.DefaultTypeMappingRegistry]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=createDefaultMappings; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-spring-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2014-06-18 09:54:07,123] :
+Overriding bean definition for bean 'xfire.aegisBindingProvider': replacing [Generic bean: class [org.codehaus.xfire.aegis.AegisBindingProvider]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-all-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]] with [Generic bean: class [org.codehaus.xfire.aegis.AegisBindingProvider]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-spring-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2014-06-18 09:54:07,124] :
+Overriding bean definition for bean 'xfire.serviceFactory': replacing [Generic bean: class [org.codehaus.xfire.service.binding.ObjectServiceFactory]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-all-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]] with [Generic bean: class [org.codehaus.xfire.service.binding.ObjectServiceFactory]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-spring-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2014-06-18 09:54:07,124] :
+Overriding bean definition for bean 'xfire.servletController': replacing [Generic bean: class [org.codehaus.xfire.transport.http.XFireServletController]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-all-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]] with [Generic bean: class [org.codehaus.xfire.transport.http.XFireServletController]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-spring-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2014-06-18 09:54:07,125] :
+Overriding bean definition for bean 'xfire.messageServiceFactory': replacing [Generic bean: class [org.codehaus.xfire.service.binding.ObjectServiceFactory]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-all-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]] with [Generic bean: class [org.codehaus.xfire.service.binding.ObjectServiceFactory]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-spring-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2014-06-18 09:54:07,125] :
+Overriding bean definition for bean 'xfire.messageBindingProvider': replacing [Generic bean: class [org.codehaus.xfire.service.binding.MessageBindingProvider]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-all-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]] with [Generic bean: class [org.codehaus.xfire.service.binding.MessageBindingProvider]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-spring-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]]
+[org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:177)] [2014-06-18 09:54:07,278] :
+Loading properties file from class path resource [jdbc.properties]
+[org.springframework.beans.factory.config.CustomEditorConfigurer.postProcessBeanFactory(CustomEditorConfigurer.java:187)] [2014-06-18 09:54:07,310] :
+Passing PropertyEditor instances into CustomEditorConfigurer is deprecated: use PropertyEditorRegistrars or PropertyEditor class names instead. Offending key [org.codehaus.xfire.service.ServiceFactory; offending editor instance: org.codehaus.xfire.spring.editors.ServiceFactoryEditor@19d9c0d
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:555)] [2014-06-18 09:54:07,335] :
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@9d5793: defining beans [indexAction,authorizationInterceptor,docDao,docBiz,docAction,groupDao,groupBiz,groupAction,logDao,logReviewDao,logTransmitDao,logBiz,logAction,noticeDao,noticeBiz,noticeAction,loginAction,menuDao,roleDao,moudleDao,moudleBiz,moudleAction,departmentDao,deptManagerDao,departmentBiz,departmentAction,moudleButtonDao,moudleButtonBiz,moudleButtonAction,roleBiz,roleAction,userDao,userBiz,userAction,userManagerBiz,userManagerDao,xctbManagerBiz,updateFileSync,xctbManagerDao,xctbManagerAction,xfire.customEditorConfigurer,xfire.serviceRegistry,xfire.transportManager,xfire,xfire.typeMappingRegistry,xfire.aegisBindingProvider,xfire.serviceFactory,xfire.servletController,xfire.messageServiceFactory,xfire.messageBindingProvider,xctbServiceImpl,xctbService,addressingHandler,springContextHolder,config,dataSource,sessionFactory,jdbcTemplate,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor]; root of factory hierarchy
+[org.hibernate.cfg.annotations.Version.<clinit>(Version.java:43)] [2014-06-18 09:54:07,449] :
+Hibernate Annotations 3.5.5-Final
+[org.hibernate.cfg.Environment.<clinit>(Environment.java:570)] [2014-06-18 09:54:07,457] :
+Hibernate 3.5.5-Final
+[org.hibernate.cfg.Environment.<clinit>(Environment.java:603)] [2014-06-18 09:54:07,458] :
+hibernate.properties not found
+[org.hibernate.cfg.Environment.buildBytecodeProvider(Environment.java:781)] [2014-06-18 09:54:07,461] :
+Bytecode provider name : javassist
+[org.hibernate.cfg.Environment.<clinit>(Environment.java:662)] [2014-06-18 09:54:07,464] :
+using JDK 1.4 java.sql.Timestamp handling
+[org.hibernate.annotations.common.Version.<clinit>(Version.java:37)] [2014-06-18 09:54:07,531] :
+Hibernate Commons Annotations 3.2.0.Final
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2014-06-18 09:54:07,660] :
+Binding entity from annotated class: com.microxt.entity.Button
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2014-06-18 09:54:07,679] :
+Bind entity com.microxt.entity.Button on table t_button
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2014-06-18 09:54:07,733] :
+Binding entity from annotated class: com.microxt.entity.BuzzAuth
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2014-06-18 09:54:07,734] :
+Bind entity com.microxt.entity.BuzzAuth on table t_buzz_auth
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2014-06-18 09:54:07,739] :
+Binding entity from annotated class: com.microxt.entity.BuzzAuthUser
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2014-06-18 09:54:07,740] :
+Bind entity com.microxt.entity.BuzzAuthUser on table t_buzz_auth_user
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2014-06-18 09:54:07,741] :
+Binding entity from annotated class: com.microxt.entity.Department
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2014-06-18 09:54:07,742] :
+Bind entity com.microxt.entity.Department on table t_department
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2014-06-18 09:54:07,747] :
+Binding entity from annotated class: com.microxt.entity.DeptManager
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2014-06-18 09:54:07,748] :
+Bind entity com.microxt.entity.DeptManager on table t_dept_manager
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2014-06-18 09:54:07,750] :
+Binding entity from annotated class: com.microxt.entity.Dict
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2014-06-18 09:54:07,751] :
+Bind entity com.microxt.entity.Dict on table t_dict
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2014-06-18 09:54:07,753] :
+Binding entity from annotated class: com.microxt.entity.DocAttach
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2014-06-18 09:54:07,754] :
+Bind entity com.microxt.entity.DocAttach on table t_doc_attach
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2014-06-18 09:54:07,757] :
+Binding entity from annotated class: com.microxt.entity.Group
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2014-06-18 09:54:07,757] :
+Bind entity com.microxt.entity.Group on table t_group
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2014-06-18 09:54:07,763] :
+Binding entity from annotated class: com.microxt.entity.Log
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2014-06-18 09:54:07,766] :
+Bind entity com.microxt.entity.Log on table t_log
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2014-06-18 09:54:07,774] :
+Binding entity from annotated class: com.microxt.entity.LogReview
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2014-06-18 09:54:07,774] :
+Bind entity com.microxt.entity.LogReview on table t_log_review
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2014-06-18 09:54:07,777] :
+Binding entity from annotated class: com.microxt.entity.LogTransmit
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2014-06-18 09:54:07,778] :
+Bind entity com.microxt.entity.LogTransmit on table t_log_transmit
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2014-06-18 09:54:07,780] :
+Binding entity from annotated class: com.microxt.entity.Moudle
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2014-06-18 09:54:07,781] :
+Bind entity com.microxt.entity.Moudle on table t_moudle
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2014-06-18 09:54:07,786] :
+Binding entity from annotated class: com.microxt.entity.Notice
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2014-06-18 09:54:07,786] :
+Bind entity com.microxt.entity.Notice on table t_notice
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2014-06-18 09:54:07,810] :
+Binding entity from annotated class: com.microxt.entity.Role
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2014-06-18 09:54:07,810] :
+Bind entity com.microxt.entity.Role on table t_role
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2014-06-18 09:54:07,814] :
+Binding entity from annotated class: com.microxt.entity.User
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2014-06-18 09:54:07,814] :
+Bind entity com.microxt.entity.User on table t_user
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2014-06-18 09:54:07,819] :
+Binding entity from annotated class: com.microxt.entity.UserSjxx
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2014-06-18 09:54:07,819] :
+Bind entity com.microxt.entity.UserSjxx on table t_user_sjxx
+[org.hibernate.cfg.annotations.CollectionBinder.bindOneToManySecondPass(CollectionBinder.java:729)] [2014-06-18 09:54:07,843] :
+Mapping collection: com.microxt.entity.Department.deptManagers -> t_dept_manager
+[org.hibernate.cfg.annotations.CollectionBinder.bindOneToManySecondPass(CollectionBinder.java:729)] [2014-06-18 09:54:07,844] :
+Mapping collection: com.microxt.entity.Department.users -> t_user
+[org.hibernate.cfg.annotations.CollectionBinder.bindOneToManySecondPass(CollectionBinder.java:729)] [2014-06-18 09:54:07,844] :
+Mapping collection: com.microxt.entity.Log.logReviews -> t_log_review
+[org.hibernate.cfg.annotations.CollectionBinder.bindOneToManySecondPass(CollectionBinder.java:729)] [2014-06-18 09:54:07,845] :
+Mapping collection: com.microxt.entity.Log.logTransmits -> t_log_transmit
+[org.hibernate.cfg.annotations.CollectionBinder.bindOneToManySecondPass(CollectionBinder.java:729)] [2014-06-18 09:54:07,845] :
+Mapping collection: com.microxt.entity.Moudle.buttons -> t_button
+[org.hibernate.cfg.annotations.CollectionBinder.bindOneToManySecondPass(CollectionBinder.java:729)] [2014-06-18 09:54:07,845] :
+Mapping collection: com.microxt.entity.Moudle.moudles -> t_moudle
+[org.hibernate.cfg.AnnotationConfiguration.applyHibernateValidatorLegacyConstraintsOnDDL(AnnotationConfiguration.java:450)] [2014-06-18 09:54:07,850] :
+Hibernate Validator not found: ignoring
+[org.springframework.orm.hibernate3.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:772)] [2014-06-18 09:54:07,851] :
+Building new Hibernate SessionFactory
+[org.hibernate.cfg.search.HibernateSearchEventListenerRegister.enableHibernateSearch(HibernateSearchEventListenerRegister.java:75)] [2014-06-18 09:54:07,855] :
+Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+[org.hibernate.connection.ConnectionProviderFactory.initializeConnectionProviderFromConfig(ConnectionProviderFactory.java:173)] [2014-06-18 09:54:07,861] :
+Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:117)] [2014-06-18 09:54:08,152] :
+RDBMS: Oracle, version: Oracle Database 11g Release 11.1.0.0.0 - Production
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:118)] [2014-06-18 09:54:08,153] :
+JDBC driver: Oracle JDBC driver, version: 10.2.0.4.0
+[org.hibernate.dialect.Dialect.<init>(Dialect.java:206)] [2014-06-18 09:54:08,234] :
+Using dialect: org.hibernate.dialect.Oracle10gDialect
+[org.hibernate.engine.jdbc.JdbcSupportLoader.useContextualLobCreation(JdbcSupportLoader.java:108)] [2014-06-18 09:54:08,239] :
+Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+[org.hibernate.transaction.TransactionFactoryFactory.buildTransactionFactory(TransactionFactoryFactory.java:62)] [2014-06-18 09:54:08,240] :
+Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+[org.hibernate.transaction.TransactionManagerLookupFactory.getTransactionManagerLookup(TransactionManagerLookupFactory.java:80)] [2014-06-18 09:54:08,241] :
+No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:169)] [2014-06-18 09:54:08,241] :
+Automatic flush during beforeCompletion(): disabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:173)] [2014-06-18 09:54:08,242] :
+Automatic session close at end of transaction: disabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:180)] [2014-06-18 09:54:08,242] :
+JDBC batch size: 15
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:183)] [2014-06-18 09:54:08,242] :
+JDBC batch updates for versioned data: disabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:188)] [2014-06-18 09:54:08,243] :
+Scrollable result sets: enabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:196)] [2014-06-18 09:54:08,243] :
+JDBC3 getGeneratedKeys(): disabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:204)] [2014-06-18 09:54:08,243] :
+Connection release mode: auto
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:228)] [2014-06-18 09:54:08,244] :
+Maximum outer join fetch depth: 0
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:231)] [2014-06-18 09:54:08,244] :
+Default batch fetch size: 4
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:235)] [2014-06-18 09:54:08,245] :
+Generate SQL with comments: disabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:239)] [2014-06-18 09:54:08,245] :
+Order SQL updates by primary key: disabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:243)] [2014-06-18 09:54:08,245] :
+Order SQL inserts for batching: disabled
+[org.hibernate.cfg.SettingsFactory.createQueryTranslatorFactory(SettingsFactory.java:410)] [2014-06-18 09:54:08,245] :
+Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[org.hibernate.hql.ast.ASTQueryTranslatorFactory.<init>(ASTQueryTranslatorFactory.java:47)] [2014-06-18 09:54:08,247] :
+Using ASTQueryTranslatorFactory
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:251)] [2014-06-18 09:54:08,247] :
+Query language substitutions: {}
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:256)] [2014-06-18 09:54:08,247] :
+JPA-QL strict compliance: disabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:261)] [2014-06-18 09:54:08,248] :
+Second-level cache: enabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:265)] [2014-06-18 09:54:08,248] :
+Query cache: disabled
+[org.hibernate.cfg.SettingsFactory.createRegionFactory(SettingsFactory.java:395)] [2014-06-18 09:54:08,248] :
+Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:275)] [2014-06-18 09:54:08,248] :
+Optimize cache for minimal puts: disabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:284)] [2014-06-18 09:54:08,249] :
+Structured second-level cache entries: disabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:304)] [2014-06-18 09:54:08,251] :
+Echoing all SQL to stdout
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:313)] [2014-06-18 09:54:08,252] :
+Statistics: enabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:317)] [2014-06-18 09:54:08,252] :
+Deleted entity synthetic identifier rollback: disabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:332)] [2014-06-18 09:54:08,254] :
+Default entity-mode: pojo
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:336)] [2014-06-18 09:54:08,254] :
+Named query checking : enabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:340)] [2014-06-18 09:54:08,255] :
+Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+[org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:199)] [2014-06-18 09:54:08,280] :
+building session factory
+[org.hibernate.impl.SessionFactoryObjectFactory.addInstance(SessionFactoryObjectFactory.java:105)] [2014-06-18 09:54:08,578] :
+Not binding factory to JNDI, no JNDI name configured
+[org.codehaus.xfire.spring.ServiceBean.afterPropertiesSet(ServiceBean.java:190)] [2014-06-18 09:54:09,255] :
+Exposing service with name {http://service.xctb.microxt.com}XctbService
+[org.springframework.orm.hibernate3.HibernateTransactionManager.afterPropertiesSet(HibernateTransactionManager.java:415)] [2014-06-18 09:54:09,271] :
+Using DataSource [org.apache.commons.dbcp.BasicDataSource@11c0b76] of Hibernate SessionFactory for HibernateTransactionManager
+[org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:214)] [2014-06-18 09:54:09,274] :
+Root WebApplicationContext: initialization completed in 2690 ms
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.info(CommonsLogger.java:42)] [2014-06-18 09:54:09,379] :
+Parsing configuration file [struts-default.xml]
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.info(CommonsLogger.java:42)] [2014-06-18 09:54:09,453] :
+Parsing configuration file [struts-plugin.xml]
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.info(CommonsLogger.java:42)] [2014-06-18 09:54:09,541] :
+Parsing configuration file [struts.xml]
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.info(CommonsLogger.java:42)] [2014-06-18 09:54:09,548] :
+Loading global messages from globalMessages
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.info(CommonsLogger.java:42)] [2014-06-18 09:54:09,606] :
+Initializing Struts-Spring integration...
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.info(CommonsLogger.java:42)] [2014-06-18 09:54:09,607] :
+Setting autowire strategy to name
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.info(CommonsLogger.java:42)] [2014-06-18 09:54:09,607] :
+... initialized Struts-Spring integration successfully
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.warn(CommonsLogger.java:56)] [2014-06-18 09:54:09,904] :
+no default parameter defined for result of type json
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.warn(CommonsLogger.java:56)] [2014-06-18 09:54:09,905] :
+no default parameter defined for result of type json
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.warn(CommonsLogger.java:56)] [2014-06-18 09:54:09,905] :
+no default parameter defined for result of type json
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.warn(CommonsLogger.java:56)] [2014-06-18 09:54:09,908] :
+no default parameter defined for result of type json
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2014-06-18 09:54:09,959] :
+Loading XML bean definitions from class path resource [org/codehaus/xfire/spring/customEditors.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2014-06-18 09:54:09,983] :
+Loading XML bean definitions from class path resource [META-INF/xfire/services.xml]
+[org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:456)] [2014-06-18 09:54:09,986] :
+Refreshing org.codehaus.xfire.spring.GenericApplicationContext@1181c24: startup date [Wed Jun 18 09:54:09 CST 2014]; parent: Root WebApplicationContext
+[org.springframework.beans.factory.config.CustomEditorConfigurer.postProcessBeanFactory(CustomEditorConfigurer.java:187)] [2014-06-18 09:54:09,987] :
+Passing PropertyEditor instances into CustomEditorConfigurer is deprecated: use PropertyEditorRegistrars or PropertyEditor class names instead. Offending key [org.codehaus.xfire.service.ServiceFactory; offending editor instance: org.codehaus.xfire.spring.editors.ServiceFactoryEditor@dba1f7
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:555)] [2014-06-18 09:54:09,987] :
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1c24b45: defining beans [xfire.customEditorConfigurer]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@9d5793
+[org.hibernate.stat.ConcurrentStatisticsImpl.queryExecuted(ConcurrentStatisticsImpl.java:316)] [2014-06-18 10:18:58,932] :
+HQL: null, time: 88ms, rows: 1
+[org.hibernate.stat.ConcurrentStatisticsImpl.queryExecuted(ConcurrentStatisticsImpl.java:316)] [2014-06-18 10:18:59,026] :
+HQL: null, time: 2ms, rows: 1
+[org.hibernate.stat.ConcurrentStatisticsImpl.queryExecuted(ConcurrentStatisticsImpl.java:316)] [2014-06-18 10:18:59,198] :
+HQL: select new map(a.id as userId,a.logno as logno,a.userno as userno,a.logpass as logpass,a.jyxm as username,a.depId as depId,b.depName as depName,b.code as code,c.sjch as sjch,a.areaId as areaId) from User a left join a.department b,UserSjxx c  where a.logno = ? and a.logpass = ? and a.userno=c.userno, time: 12ms, rows: 1
+[org.hibernate.stat.ConcurrentStatisticsImpl.queryExecuted(ConcurrentStatisticsImpl.java:316)] [2014-06-18 10:18:59,235] :
+HQL: null, time: 1ms, rows: 1
+[org.hibernate.stat.ConcurrentStatisticsImpl.queryExecuted(ConcurrentStatisticsImpl.java:316)] [2014-06-18 10:18:59,255] :
+HQL: select new map(a.id as userId,a.logno as logno,a.userno as userno,a.logpass as logpass,a.jyxm as username,a.depId as depId,b.depName as depName,b.code as code,c.sjch as sjch,a.areaId as areaId) from User a left join a.department b,UserSjxx c  where a.logno = ? and a.logpass = ? and a.userno=c.userno, time: 10ms, rows: 1
+[org.hibernate.stat.ConcurrentStatisticsImpl.queryExecuted(ConcurrentStatisticsImpl.java:316)] [2014-06-18 10:18:59,741] :
+HQL: null, time: 21ms, rows: 7
+[org.hibernate.stat.ConcurrentStatisticsImpl.queryExecuted(ConcurrentStatisticsImpl.java:316)] [2014-06-18 15:09:45,603] :
+HQL: null, time: 2ms, rows: 1
+[org.hibernate.stat.ConcurrentStatisticsImpl.queryExecuted(ConcurrentStatisticsImpl.java:316)] [2014-06-18 15:09:45,676] :
+HQL: null, time: 1ms, rows: 1
+[org.hibernate.stat.ConcurrentStatisticsImpl.queryExecuted(ConcurrentStatisticsImpl.java:316)] [2014-06-18 15:09:45,696] :
+HQL: select new map(a.id as userId,a.logno as logno,a.userno as userno,a.logpass as logpass,a.jyxm as username,a.depId as depId,b.depName as depName,b.code as code,c.sjch as sjch,a.areaId as areaId) from User a left join a.department b,UserSjxx c  where a.logno = ? and a.logpass = ? and a.userno=c.userno, time: 9ms, rows: 1
+[org.hibernate.stat.ConcurrentStatisticsImpl.queryExecuted(ConcurrentStatisticsImpl.java:316)] [2014-06-18 15:09:45,770] :
+HQL: null, time: 8ms, rows: 7
+[org.hibernate.stat.ConcurrentStatisticsImpl.queryExecuted(ConcurrentStatisticsImpl.java:316)] [2014-06-18 15:10:06,872] :
+HQL: null, time: 2ms, rows: 1
+[org.hibernate.stat.ConcurrentStatisticsImpl.queryExecuted(ConcurrentStatisticsImpl.java:316)] [2014-06-18 15:10:06,877] :
+HQL: null, time: 4ms, rows: 1
+[org.hibernate.stat.ConcurrentStatisticsImpl.queryExecuted(ConcurrentStatisticsImpl.java:316)] [2014-06-18 15:10:08,041] :
+HQL: null, time: 2ms, rows: 1
+[org.hibernate.stat.ConcurrentStatisticsImpl.queryExecuted(ConcurrentStatisticsImpl.java:316)] [2014-06-18 15:10:08,046] :
+HQL: null, time: 3ms, rows: 1
+[org.hibernate.stat.ConcurrentStatisticsImpl.queryExecuted(ConcurrentStatisticsImpl.java:316)] [2014-06-18 15:10:15,459] :
+HQL: null, time: 2ms, rows: 1
+[org.hibernate.stat.ConcurrentStatisticsImpl.queryExecuted(ConcurrentStatisticsImpl.java:316)] [2014-06-18 15:10:15,464] :
+HQL: null, time: 3ms, rows: 1
+[org.hibernate.stat.ConcurrentStatisticsImpl.queryExecuted(ConcurrentStatisticsImpl.java:316)] [2014-06-18 15:10:18,898] :
+HQL: null, time: 2ms, rows: 1
+[org.hibernate.stat.ConcurrentStatisticsImpl.queryExecuted(ConcurrentStatisticsImpl.java:316)] [2014-06-18 15:10:18,903] :
+HQL: null, time: 3ms, rows: 1
+[org.hibernate.stat.ConcurrentStatisticsImpl.queryExecuted(ConcurrentStatisticsImpl.java:316)] [2014-06-18 15:10:20,434] :
+HQL: null, time: 8ms, rows: 7
+[org.hibernate.stat.ConcurrentStatisticsImpl.queryExecuted(ConcurrentStatisticsImpl.java:316)] [2014-06-18 15:10:23,009] :
+HQL: null, time: 1ms, rows: 1
+[org.hibernate.stat.ConcurrentStatisticsImpl.queryExecuted(ConcurrentStatisticsImpl.java:316)] [2014-06-18 15:10:23,012] :
+HQL: null, time: 2ms, rows: 1
+[org.hibernate.stat.ConcurrentStatisticsImpl.queryExecuted(ConcurrentStatisticsImpl.java:316)] [2014-06-18 15:10:23,940] :
+HQL: null, time: 1ms, rows: 1
+[org.hibernate.stat.ConcurrentStatisticsImpl.queryExecuted(ConcurrentStatisticsImpl.java:316)] [2014-06-18 15:10:23,943] :
+HQL: null, time: 2ms, rows: 1
+[org.hibernate.stat.ConcurrentStatisticsImpl.queryExecuted(ConcurrentStatisticsImpl.java:316)] [2014-06-18 15:10:26,155] :
+HQL: null, time: 6ms, rows: 7
+[org.hibernate.stat.ConcurrentStatisticsImpl.queryExecuted(ConcurrentStatisticsImpl.java:316)] [2014-06-18 15:10:27,508] :
+HQL: null, time: 1ms, rows: 1
+[org.hibernate.stat.ConcurrentStatisticsImpl.queryExecuted(ConcurrentStatisticsImpl.java:316)] [2014-06-18 15:10:27,511] :
+HQL: null, time: 2ms, rows: 1
+[org.hibernate.stat.ConcurrentStatisticsImpl.queryExecuted(ConcurrentStatisticsImpl.java:316)] [2014-06-18 15:10:28,892] :
+HQL: null, time: 5ms, rows: 7
+[org.hibernate.stat.ConcurrentStatisticsImpl.queryExecuted(ConcurrentStatisticsImpl.java:316)] [2014-06-18 15:10:30,320] :
+HQL: null, time: 1ms, rows: 1
+[org.hibernate.stat.ConcurrentStatisticsImpl.queryExecuted(ConcurrentStatisticsImpl.java:316)] [2014-06-18 15:10:30,323] :
+HQL: null, time: 2ms, rows: 1
+[org.hibernate.stat.ConcurrentStatisticsImpl.queryExecuted(ConcurrentStatisticsImpl.java:316)] [2014-06-18 15:11:08,569] :
+HQL: null, time: 8ms, rows: 7
+[org.hibernate.stat.ConcurrentStatisticsImpl.queryExecuted(ConcurrentStatisticsImpl.java:316)] [2014-06-18 15:11:09,797] :
+HQL: null, time: 1ms, rows: 1
+[org.hibernate.stat.ConcurrentStatisticsImpl.queryExecuted(ConcurrentStatisticsImpl.java:316)] [2014-06-18 15:11:09,802] :
+HQL: null, time: 3ms, rows: 1
+[org.hibernate.stat.ConcurrentStatisticsImpl.queryExecuted(ConcurrentStatisticsImpl.java:316)] [2014-06-18 15:11:14,810] :
+HQL: null, time: 2ms, rows: 1
+[org.hibernate.stat.ConcurrentStatisticsImpl.queryExecuted(ConcurrentStatisticsImpl.java:316)] [2014-06-18 15:11:14,815] :
+HQL: null, time: 3ms, rows: 1
+[org.hibernate.stat.ConcurrentStatisticsImpl.queryExecuted(ConcurrentStatisticsImpl.java:316)] [2014-06-18 15:11:55,868] :
+HQL: null, time: 2ms, rows: 1
+[org.hibernate.stat.ConcurrentStatisticsImpl.queryExecuted(ConcurrentStatisticsImpl.java:316)] [2014-06-18 15:11:55,870] :
+HQL: null, time: 1ms, rows: 1
+[org.hibernate.stat.ConcurrentStatisticsImpl.queryExecuted(ConcurrentStatisticsImpl.java:316)] [2014-06-18 15:11:58,154] :
+HQL: null, time: 1ms, rows: 1
+[org.hibernate.stat.ConcurrentStatisticsImpl.queryExecuted(ConcurrentStatisticsImpl.java:316)] [2014-06-18 15:11:58,160] :
+HQL: null, time: 3ms, rows: 1
+[org.hibernate.stat.ConcurrentStatisticsImpl.queryExecuted(ConcurrentStatisticsImpl.java:316)] [2014-06-18 15:12:00,626] :
+HQL: null, time: 2ms, rows: 1
+[org.hibernate.stat.ConcurrentStatisticsImpl.queryExecuted(ConcurrentStatisticsImpl.java:316)] [2014-06-18 15:12:00,631] :
+HQL: null, time: 3ms, rows: 1
+[org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:187)] [2014-06-18 17:53:43,804] :
+Root WebApplicationContext: initialization started
+[org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:456)] [2014-06-18 17:53:43,838] :
+Refreshing Root WebApplicationContext: startup date [Wed Jun 18 17:53:43 CST 2014]; root of context hierarchy
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2014-06-18 17:53:43,880] :
+Loading XML bean definitions from URL [file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/classes/applicationContext.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2014-06-18 17:53:44,082] :
+Loading XML bean definitions from file [D:\project\xctb\trunk\code\xctb\WebRoot\WEB-INF\classes\biz\app\sp-app.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2014-06-18 17:53:44,105] :
+Loading XML bean definitions from file [D:\project\xctb\trunk\code\xctb\WebRoot\WEB-INF\classes\biz\document\sp-document.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2014-06-18 17:53:44,119] :
+Loading XML bean definitions from file [D:\project\xctb\trunk\code\xctb\WebRoot\WEB-INF\classes\biz\group\sp-group.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2014-06-18 17:53:44,134] :
+Loading XML bean definitions from file [D:\project\xctb\trunk\code\xctb\WebRoot\WEB-INF\classes\biz\log\sp-log.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2014-06-18 17:53:44,148] :
+Loading XML bean definitions from file [D:\project\xctb\trunk\code\xctb\WebRoot\WEB-INF\classes\biz\notice\sp-notice.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2014-06-18 17:53:44,162] :
+Loading XML bean definitions from file [D:\project\xctb\trunk\code\xctb\WebRoot\WEB-INF\classes\biz\sys\sp-sys.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2014-06-18 17:53:44,178] :
+Loading XML bean definitions from file [D:\project\xctb\trunk\code\xctb\WebRoot\WEB-INF\classes\biz\sys\sp-user.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2014-06-18 17:53:44,189] :
+Loading XML bean definitions from file [D:\project\xctb\trunk\code\xctb\WebRoot\WEB-INF\classes\biz\xctb\sp-biz.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2014-06-18 17:53:44,199] :
+Loading XML bean definitions from file [D:\project\xctb\trunk\code\xctb\WebRoot\WEB-INF\classes\biz\xctb\sp-dao.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2014-06-18 17:53:44,208] :
+Loading XML bean definitions from file [D:\project\xctb\trunk\code\xctb\WebRoot\WEB-INF\classes\biz\xctb\sp-xctb-biz.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2014-06-18 17:53:44,220] :
+Loading XML bean definitions from file [D:\project\xctb\trunk\code\xctb\WebRoot\WEB-INF\classes\biz\xctb\sp-xctb-dao.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2014-06-18 17:53:44,229] :
+Loading XML bean definitions from file [D:\project\xctb\trunk\code\xctb\WebRoot\WEB-INF\classes\biz\xctb\sp-xtcb-action.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2014-06-18 17:53:44,240] :
+Loading XML bean definitions from file [D:\project\xctb\trunk\code\xctb\WebRoot\WEB-INF\classes\webservice\sp-service.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2014-06-18 17:53:44,249] :
+Loading XML bean definitions from class path resource [org/codehaus/xfire/spring/xfire.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2014-06-18 17:53:44,260] :
+Loading XML bean definitions from class path resource [org/codehaus/xfire/spring/customEditors.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2014-06-18 17:53:44,294] :
+Loading XML bean definitions from URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-all-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2014-06-18 17:53:44,301] :
+Loading XML bean definitions from URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-all-1.2.6.jar!/org/codehaus/xfire/spring/customEditors.xml]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2014-06-18 17:53:44,307] :
+Overriding bean definition for bean 'xfire.customEditorConfigurer': replacing [Generic bean: class [org.springframework.beans.factory.config.CustomEditorConfigurer]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/codehaus/xfire/spring/customEditors.xml]] with [Generic bean: class [org.springframework.beans.factory.config.CustomEditorConfigurer]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-all-1.2.6.jar!/org/codehaus/xfire/spring/customEditors.xml]]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2014-06-18 17:53:44,308] :
+Overriding bean definition for bean 'xfire.serviceRegistry': replacing [Generic bean: class [org.codehaus.xfire.service.DefaultServiceRegistry]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/codehaus/xfire/spring/xfire.xml]] with [Generic bean: class [org.codehaus.xfire.service.DefaultServiceRegistry]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-all-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2014-06-18 17:53:44,308] :
+Overriding bean definition for bean 'xfire.transportManager': replacing [Generic bean: class [org.codehaus.xfire.transport.DefaultTransportManager]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=initialize; destroyMethodName=dispose; defined in class path resource [org/codehaus/xfire/spring/xfire.xml]] with [Generic bean: class [org.codehaus.xfire.transport.DefaultTransportManager]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=initialize; destroyMethodName=dispose; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-all-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2014-06-18 17:53:44,309] :
+Overriding bean definition for bean 'xfire': replacing [Generic bean: class [org.codehaus.xfire.DefaultXFire]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/codehaus/xfire/spring/xfire.xml]] with [Generic bean: class [org.codehaus.xfire.DefaultXFire]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-all-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2014-06-18 17:53:44,309] :
+Overriding bean definition for bean 'xfire.typeMappingRegistry': replacing [Generic bean: class [org.codehaus.xfire.aegis.type.DefaultTypeMappingRegistry]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=createDefaultMappings; destroyMethodName=null; defined in class path resource [org/codehaus/xfire/spring/xfire.xml]] with [Generic bean: class [org.codehaus.xfire.aegis.type.DefaultTypeMappingRegistry]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=createDefaultMappings; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-all-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2014-06-18 17:53:44,310] :
+Overriding bean definition for bean 'xfire.aegisBindingProvider': replacing [Generic bean: class [org.codehaus.xfire.aegis.AegisBindingProvider]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/codehaus/xfire/spring/xfire.xml]] with [Generic bean: class [org.codehaus.xfire.aegis.AegisBindingProvider]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-all-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2014-06-18 17:53:44,310] :
+Overriding bean definition for bean 'xfire.serviceFactory': replacing [Generic bean: class [org.codehaus.xfire.service.binding.ObjectServiceFactory]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/codehaus/xfire/spring/xfire.xml]] with [Generic bean: class [org.codehaus.xfire.service.binding.ObjectServiceFactory]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-all-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2014-06-18 17:53:44,311] :
+Overriding bean definition for bean 'xfire.servletController': replacing [Generic bean: class [org.codehaus.xfire.transport.http.XFireServletController]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/codehaus/xfire/spring/xfire.xml]] with [Generic bean: class [org.codehaus.xfire.transport.http.XFireServletController]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-all-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2014-06-18 17:53:44,311] :
+Overriding bean definition for bean 'xfire.messageServiceFactory': replacing [Generic bean: class [org.codehaus.xfire.service.binding.ObjectServiceFactory]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/codehaus/xfire/spring/xfire.xml]] with [Generic bean: class [org.codehaus.xfire.service.binding.ObjectServiceFactory]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-all-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2014-06-18 17:53:44,312] :
+Overriding bean definition for bean 'xfire.messageBindingProvider': replacing [Generic bean: class [org.codehaus.xfire.service.binding.MessageBindingProvider]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [org/codehaus/xfire/spring/xfire.xml]] with [Generic bean: class [org.codehaus.xfire.service.binding.MessageBindingProvider]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-all-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2014-06-18 17:53:44,312] :
+Loading XML bean definitions from URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-spring-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2014-06-18 17:53:44,318] :
+Loading XML bean definitions from URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-spring-1.2.6.jar!/org/codehaus/xfire/spring/customEditors.xml]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2014-06-18 17:53:44,323] :
+Overriding bean definition for bean 'xfire.customEditorConfigurer': replacing [Generic bean: class [org.springframework.beans.factory.config.CustomEditorConfigurer]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-all-1.2.6.jar!/org/codehaus/xfire/spring/customEditors.xml]] with [Generic bean: class [org.springframework.beans.factory.config.CustomEditorConfigurer]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-spring-1.2.6.jar!/org/codehaus/xfire/spring/customEditors.xml]]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2014-06-18 17:53:44,323] :
+Overriding bean definition for bean 'xfire.serviceRegistry': replacing [Generic bean: class [org.codehaus.xfire.service.DefaultServiceRegistry]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-all-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]] with [Generic bean: class [org.codehaus.xfire.service.DefaultServiceRegistry]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-spring-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2014-06-18 17:53:44,324] :
+Overriding bean definition for bean 'xfire.transportManager': replacing [Generic bean: class [org.codehaus.xfire.transport.DefaultTransportManager]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=initialize; destroyMethodName=dispose; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-all-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]] with [Generic bean: class [org.codehaus.xfire.transport.DefaultTransportManager]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=initialize; destroyMethodName=dispose; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-spring-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2014-06-18 17:53:44,326] :
+Overriding bean definition for bean 'xfire': replacing [Generic bean: class [org.codehaus.xfire.DefaultXFire]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-all-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]] with [Generic bean: class [org.codehaus.xfire.DefaultXFire]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-spring-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2014-06-18 17:53:44,326] :
+Overriding bean definition for bean 'xfire.typeMappingRegistry': replacing [Generic bean: class [org.codehaus.xfire.aegis.type.DefaultTypeMappingRegistry]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=createDefaultMappings; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-all-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]] with [Generic bean: class [org.codehaus.xfire.aegis.type.DefaultTypeMappingRegistry]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=createDefaultMappings; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-spring-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2014-06-18 17:53:44,327] :
+Overriding bean definition for bean 'xfire.aegisBindingProvider': replacing [Generic bean: class [org.codehaus.xfire.aegis.AegisBindingProvider]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-all-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]] with [Generic bean: class [org.codehaus.xfire.aegis.AegisBindingProvider]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-spring-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2014-06-18 17:53:44,327] :
+Overriding bean definition for bean 'xfire.serviceFactory': replacing [Generic bean: class [org.codehaus.xfire.service.binding.ObjectServiceFactory]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-all-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]] with [Generic bean: class [org.codehaus.xfire.service.binding.ObjectServiceFactory]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-spring-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2014-06-18 17:53:44,328] :
+Overriding bean definition for bean 'xfire.servletController': replacing [Generic bean: class [org.codehaus.xfire.transport.http.XFireServletController]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-all-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]] with [Generic bean: class [org.codehaus.xfire.transport.http.XFireServletController]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-spring-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2014-06-18 17:53:44,328] :
+Overriding bean definition for bean 'xfire.messageServiceFactory': replacing [Generic bean: class [org.codehaus.xfire.service.binding.ObjectServiceFactory]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-all-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]] with [Generic bean: class [org.codehaus.xfire.service.binding.ObjectServiceFactory]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-spring-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2014-06-18 17:53:44,329] :
+Overriding bean definition for bean 'xfire.messageBindingProvider': replacing [Generic bean: class [org.codehaus.xfire.service.binding.MessageBindingProvider]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-all-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]] with [Generic bean: class [org.codehaus.xfire.service.binding.MessageBindingProvider]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/D:/project/xctb/trunk/code/xctb/WebRoot/WEB-INF/lib/xfire-spring-1.2.6.jar!/org/codehaus/xfire/spring/xfire.xml]]
+[org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:177)] [2014-06-18 17:53:44,449] :
+Loading properties file from class path resource [jdbc.properties]
+[org.springframework.beans.factory.config.CustomEditorConfigurer.postProcessBeanFactory(CustomEditorConfigurer.java:187)] [2014-06-18 17:53:44,475] :
+Passing PropertyEditor instances into CustomEditorConfigurer is deprecated: use PropertyEditorRegistrars or PropertyEditor class names instead. Offending key [org.codehaus.xfire.service.ServiceFactory; offending editor instance: org.codehaus.xfire.spring.editors.ServiceFactoryEditor@154c054
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:555)] [2014-06-18 17:53:44,498] :
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4b2b75: defining beans [indexAction,authorizationInterceptor,docDao,docBiz,docAction,groupDao,groupBiz,groupAction,logDao,logReviewDao,logTransmitDao,logBiz,logAction,noticeDao,noticeBiz,noticeAction,loginAction,menuDao,roleDao,moudleDao,moudleBiz,moudleAction,departmentDao,deptManagerDao,departmentBiz,departmentAction,moudleButtonDao,moudleButtonBiz,moudleButtonAction,roleBiz,roleAction,userDao,userBiz,userAction,userManagerBiz,userManagerDao,xctbManagerBiz,updateFileSync,xctbManagerDao,xctbManagerAction,xfire.customEditorConfigurer,xfire.serviceRegistry,xfire.transportManager,xfire,xfire.typeMappingRegistry,xfire.aegisBindingProvider,xfire.serviceFactory,xfire.servletController,xfire.messageServiceFactory,xfire.messageBindingProvider,xctbServiceImpl,xctbService,addressingHandler,springContextHolder,config,dataSource,sessionFactory,jdbcTemplate,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor]; root of factory hierarchy
+[org.hibernate.cfg.annotations.Version.<clinit>(Version.java:43)] [2014-06-18 17:53:44,601] :
+Hibernate Annotations 3.5.5-Final
+[org.hibernate.cfg.Environment.<clinit>(Environment.java:570)] [2014-06-18 17:53:44,609] :
+Hibernate 3.5.5-Final
+[org.hibernate.cfg.Environment.<clinit>(Environment.java:603)] [2014-06-18 17:53:44,610] :
+hibernate.properties not found
+[org.hibernate.cfg.Environment.buildBytecodeProvider(Environment.java:781)] [2014-06-18 17:53:44,613] :
+Bytecode provider name : javassist
+[org.hibernate.cfg.Environment.<clinit>(Environment.java:662)] [2014-06-18 17:53:44,615] :
+using JDK 1.4 java.sql.Timestamp handling
+[org.hibernate.annotations.common.Version.<clinit>(Version.java:37)] [2014-06-18 17:53:44,680] :
+Hibernate Commons Annotations 3.2.0.Final
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2014-06-18 17:53:44,794] :
+Binding entity from annotated class: com.microxt.entity.Button
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2014-06-18 17:53:44,811] :
+Bind entity com.microxt.entity.Button on table t_button
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2014-06-18 17:53:44,865] :
+Binding entity from annotated class: com.microxt.entity.BuzzAuth
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2014-06-18 17:53:44,866] :
+Bind entity com.microxt.entity.BuzzAuth on table t_buzz_auth
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2014-06-18 17:53:44,871] :
+Binding entity from annotated class: com.microxt.entity.BuzzAuthUser
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2014-06-18 17:53:44,872] :
+Bind entity com.microxt.entity.BuzzAuthUser on table t_buzz_auth_user
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2014-06-18 17:53:44,874] :
+Binding entity from annotated class: com.microxt.entity.Department
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2014-06-18 17:53:44,875] :
+Bind entity com.microxt.entity.Department on table t_department
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2014-06-18 17:53:44,880] :
+Binding entity from annotated class: com.microxt.entity.DeptManager
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2014-06-18 17:53:44,881] :
+Bind entity com.microxt.entity.DeptManager on table t_dept_manager
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2014-06-18 17:53:44,883] :
+Binding entity from annotated class: com.microxt.entity.Dict
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2014-06-18 17:53:44,884] :
+Bind entity com.microxt.entity.Dict on table t_dict
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2014-06-18 17:53:44,886] :
+Binding entity from annotated class: com.microxt.entity.DocAttach
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2014-06-18 17:53:44,887] :
+Bind entity com.microxt.entity.DocAttach on table t_doc_attach
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2014-06-18 17:53:44,890] :
+Binding entity from annotated class: com.microxt.entity.Group
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2014-06-18 17:53:44,891] :
+Bind entity com.microxt.entity.Group on table t_group
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2014-06-18 17:53:44,897] :
+Binding entity from annotated class: com.microxt.entity.Log
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2014-06-18 17:53:44,900] :
+Bind entity com.microxt.entity.Log on table t_log
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2014-06-18 17:53:44,907] :
+Binding entity from annotated class: com.microxt.entity.LogReview
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2014-06-18 17:53:44,907] :
+Bind entity com.microxt.entity.LogReview on table t_log_review
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2014-06-18 17:53:44,909] :
+Binding entity from annotated class: com.microxt.entity.LogTransmit
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2014-06-18 17:53:44,910] :
+Bind entity com.microxt.entity.LogTransmit on table t_log_transmit
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2014-06-18 17:53:44,912] :
+Binding entity from annotated class: com.microxt.entity.Moudle
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2014-06-18 17:53:44,913] :
+Bind entity com.microxt.entity.Moudle on table t_moudle
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2014-06-18 17:53:44,918] :
+Binding entity from annotated class: com.microxt.entity.Notice
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2014-06-18 17:53:44,918] :
+Bind entity com.microxt.entity.Notice on table t_notice
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2014-06-18 17:53:44,941] :
+Binding entity from annotated class: com.microxt.entity.Role
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2014-06-18 17:53:44,941] :
+Bind entity com.microxt.entity.Role on table t_role
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2014-06-18 17:53:44,945] :
+Binding entity from annotated class: com.microxt.entity.User
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2014-06-18 17:53:44,945] :
+Bind entity com.microxt.entity.User on table t_user
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2014-06-18 17:53:44,950] :
+Binding entity from annotated class: com.microxt.entity.UserSjxx
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2014-06-18 17:53:44,950] :
+Bind entity com.microxt.entity.UserSjxx on table t_user_sjxx
+[org.hibernate.cfg.annotations.CollectionBinder.bindOneToManySecondPass(CollectionBinder.java:729)] [2014-06-18 17:53:44,974] :
+Mapping collection: com.microxt.entity.Department.deptManagers -> t_dept_manager
+[org.hibernate.cfg.annotations.CollectionBinder.bindOneToManySecondPass(CollectionBinder.java:729)] [2014-06-18 17:53:44,974] :
+Mapping collection: com.microxt.entity.Department.users -> t_user
+[org.hibernate.cfg.annotations.CollectionBinder.bindOneToManySecondPass(CollectionBinder.java:729)] [2014-06-18 17:53:44,975] :
+Mapping collection: com.microxt.entity.Log.logReviews -> t_log_review
+[org.hibernate.cfg.annotations.CollectionBinder.bindOneToManySecondPass(CollectionBinder.java:729)] [2014-06-18 17:53:44,975] :
+Mapping collection: com.microxt.entity.Log.logTransmits -> t_log_transmit
+[org.hibernate.cfg.annotations.CollectionBinder.bindOneToManySecondPass(CollectionBinder.java:729)] [2014-06-18 17:53:44,975] :
+Mapping collection: com.microxt.entity.Moudle.buttons -> t_button
+[org.hibernate.cfg.annotations.CollectionBinder.bindOneToManySecondPass(CollectionBinder.java:729)] [2014-06-18 17:53:44,976] :
+Mapping collection: com.microxt.entity.Moudle.moudles -> t_moudle
+[org.hibernate.cfg.AnnotationConfiguration.applyHibernateValidatorLegacyConstraintsOnDDL(AnnotationConfiguration.java:450)] [2014-06-18 17:53:44,980] :
+Hibernate Validator not found: ignoring
+[org.springframework.orm.hibernate3.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:772)] [2014-06-18 17:53:44,982] :
+Building new Hibernate SessionFactory
+[org.hibernate.cfg.search.HibernateSearchEventListenerRegister.enableHibernateSearch(HibernateSearchEventListenerRegister.java:75)] [2014-06-18 17:53:44,986] :
+Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+[org.hibernate.connection.ConnectionProviderFactory.initializeConnectionProviderFromConfig(ConnectionProviderFactory.java:173)] [2014-06-18 17:53:44,991] :
+Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:117)] [2014-06-18 17:53:45,244] :
+RDBMS: Oracle, version: Oracle Database 11g Release 11.1.0.0.0 - Production
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:118)] [2014-06-18 17:53:45,244] :
+JDBC driver: Oracle JDBC driver, version: 10.2.0.4.0
+[org.hibernate.dialect.Dialect.<init>(Dialect.java:206)] [2014-06-18 17:53:45,305] :
+Using dialect: org.hibernate.dialect.Oracle10gDialect
+[org.hibernate.engine.jdbc.JdbcSupportLoader.useContextualLobCreation(JdbcSupportLoader.java:108)] [2014-06-18 17:53:45,309] :
+Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+[org.hibernate.transaction.TransactionFactoryFactory.buildTransactionFactory(TransactionFactoryFactory.java:62)] [2014-06-18 17:53:45,310] :
+Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+[org.hibernate.transaction.TransactionManagerLookupFactory.getTransactionManagerLookup(TransactionManagerLookupFactory.java:80)] [2014-06-18 17:53:45,311] :
+No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:169)] [2014-06-18 17:53:45,311] :
+Automatic flush during beforeCompletion(): disabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:173)] [2014-06-18 17:53:45,311] :
+Automatic session close at end of transaction: disabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:180)] [2014-06-18 17:53:45,312] :
+JDBC batch size: 15
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:183)] [2014-06-18 17:53:45,312] :
+JDBC batch updates for versioned data: disabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:188)] [2014-06-18 17:53:45,313] :
+Scrollable result sets: enabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:196)] [2014-06-18 17:53:45,313] :
+JDBC3 getGeneratedKeys(): disabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:204)] [2014-06-18 17:53:45,313] :
+Connection release mode: auto
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:228)] [2014-06-18 17:53:45,314] :
+Maximum outer join fetch depth: 0
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:231)] [2014-06-18 17:53:45,314] :
+Default batch fetch size: 4
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:235)] [2014-06-18 17:53:45,314] :
+Generate SQL with comments: disabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:239)] [2014-06-18 17:53:45,315] :
+Order SQL updates by primary key: disabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:243)] [2014-06-18 17:53:45,315] :
+Order SQL inserts for batching: disabled
+[org.hibernate.cfg.SettingsFactory.createQueryTranslatorFactory(SettingsFactory.java:410)] [2014-06-18 17:53:45,315] :
+Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[org.hibernate.hql.ast.ASTQueryTranslatorFactory.<init>(ASTQueryTranslatorFactory.java:47)] [2014-06-18 17:53:45,316] :
+Using ASTQueryTranslatorFactory
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:251)] [2014-06-18 17:53:45,317] :
+Query language substitutions: {}
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:256)] [2014-06-18 17:53:45,317] :
+JPA-QL strict compliance: disabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:261)] [2014-06-18 17:53:45,317] :
+Second-level cache: enabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:265)] [2014-06-18 17:53:45,318] :
+Query cache: disabled
+[org.hibernate.cfg.SettingsFactory.createRegionFactory(SettingsFactory.java:395)] [2014-06-18 17:53:45,318] :
+Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:275)] [2014-06-18 17:53:45,318] :
+Optimize cache for minimal puts: disabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:284)] [2014-06-18 17:53:45,319] :
+Structured second-level cache entries: disabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:304)] [2014-06-18 17:53:45,321] :
+Echoing all SQL to stdout
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:313)] [2014-06-18 17:53:45,322] :
+Statistics: enabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:317)] [2014-06-18 17:53:45,322] :
+Deleted entity synthetic identifier rollback: disabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:332)] [2014-06-18 17:53:45,323] :
+Default entity-mode: pojo
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:336)] [2014-06-18 17:53:45,323] :
+Named query checking : enabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:340)] [2014-06-18 17:53:45,324] :
+Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+[org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:199)] [2014-06-18 17:53:45,344] :
+building session factory
+[org.hibernate.impl.SessionFactoryObjectFactory.addInstance(SessionFactoryObjectFactory.java:105)] [2014-06-18 17:53:45,620] :
+Not binding factory to JNDI, no JNDI name configured
+[org.codehaus.xfire.spring.ServiceBean.afterPropertiesSet(ServiceBean.java:190)] [2014-06-18 17:53:46,234] :
+Exposing service with name {http://service.xctb.microxt.com}XctbService
+[org.springframework.orm.hibernate3.HibernateTransactionManager.afterPropertiesSet(HibernateTransactionManager.java:415)] [2014-06-18 17:53:46,249] :
+Using DataSource [org.apache.commons.dbcp.BasicDataSource@1f10df7] of Hibernate SessionFactory for HibernateTransactionManager
+[org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:214)] [2014-06-18 17:53:46,253] :
+Root WebApplicationContext: initialization completed in 2447 ms
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.info(CommonsLogger.java:42)] [2014-06-18 17:53:46,330] :
+Parsing configuration file [struts-default.xml]
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.info(CommonsLogger.java:42)] [2014-06-18 17:53:46,398] :
+Parsing configuration file [struts-plugin.xml]
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.info(CommonsLogger.java:42)] [2014-06-18 17:53:46,478] :
+Parsing configuration file [struts.xml]
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.info(CommonsLogger.java:42)] [2014-06-18 17:53:46,482] :
+Loading global messages from globalMessages
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.info(CommonsLogger.java:42)] [2014-06-18 17:53:46,530] :
+Initializing Struts-Spring integration...
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.info(CommonsLogger.java:42)] [2014-06-18 17:53:46,530] :
+Setting autowire strategy to name
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.info(CommonsLogger.java:42)] [2014-06-18 17:53:46,530] :
+... initialized Struts-Spring integration successfully
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.warn(CommonsLogger.java:56)] [2014-06-18 17:53:46,810] :
+no default parameter defined for result of type json
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.warn(CommonsLogger.java:56)] [2014-06-18 17:53:46,812] :
+no default parameter defined for result of type json
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.warn(CommonsLogger.java:56)] [2014-06-18 17:53:46,812] :
+no default parameter defined for result of type json
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.warn(CommonsLogger.java:56)] [2014-06-18 17:53:46,814] :
+no default parameter defined for result of type json
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2014-06-18 17:53:46,863] :
+Loading XML bean definitions from class path resource [org/codehaus/xfire/spring/customEditors.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2014-06-18 17:53:46,887] :
+Loading XML bean definitions from class path resource [META-INF/xfire/services.xml]
+[org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:456)] [2014-06-18 17:53:46,889] :
+Refreshing org.codehaus.xfire.spring.GenericApplicationContext@1dfb148: startup date [Wed Jun 18 17:53:46 CST 2014]; parent: Root WebApplicationContext
+[org.springframework.beans.factory.config.CustomEditorConfigurer.postProcessBeanFactory(CustomEditorConfigurer.java:187)] [2014-06-18 17:53:46,890] :
+Passing PropertyEditor instances into CustomEditorConfigurer is deprecated: use PropertyEditorRegistrars or PropertyEditor class names instead. Offending key [org.codehaus.xfire.service.ServiceFactory; offending editor instance: org.codehaus.xfire.spring.editors.ServiceFactoryEditor@f3b83
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:555)] [2014-06-18 17:53:46,891] :
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@900079: defining beans [xfire.customEditorConfigurer]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@4b2b75
+[org.hibernate.stat.ConcurrentStatisticsImpl.queryExecuted(ConcurrentStatisticsImpl.java:316)] [2014-06-18 17:55:22,439] :
+HQL: null, time: 97ms, rows: 1
+[org.hibernate.stat.ConcurrentStatisticsImpl.queryExecuted(ConcurrentStatisticsImpl.java:316)] [2014-06-18 17:55:41,581] :
+HQL: null, time: 1ms, rows: 1

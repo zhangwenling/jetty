@@ -1,0 +1,1414 @@
+[org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:187)] [2013-12-17 16:14:37,908] :
+Root WebApplicationContext: initialization started
+[org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:456)] [2013-12-17 16:14:37,942] :
+Refreshing Root WebApplicationContext: startup date [Tue Dec 17 16:14:37 CST 2013]; root of context hierarchy
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:37,988] :
+Loading XML bean definitions from URL [file:/D:/workspaces/microxt/trunk/code/microxt/WebRoot/WEB-INF/classes/applicationContext.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:38,294] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\app\sp-app.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:38,349] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\contact\sp-contact.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:38,384] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\doc\sp-doc.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:38,420] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\doccenter\sp-doccenter.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:38,474] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\doccenter\sp-doccenterenjoy.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:38,525] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\document\sp-document.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:38,581] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\fusion\sp-fusion.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:38,680] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\group\sp-group.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:38,748] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\log\sp-log.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:38,773] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\message\sp-message.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:38,819] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\notice\sp-notice.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:38,848] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\noticePermission\sp-noticePermission.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:38,874] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\personalLetter\sp-personalLetter.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:38,906] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\personMsg\sp-personMsg.xml]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2013-12-17 16:14:38,926] :
+Overriding bean definition for bean 'phoneClientDao': replacing [Generic bean: class [com.microxt.personMsg.dao.PhoneClientDao]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\personalLetter\sp-personalLetter.xml]] with [Generic bean: class [com.microxt.personMsg.dao.PhoneClientDao]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\personMsg\sp-personMsg.xml]]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:38,928] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\reader\sp-reader.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:38,950] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\schedule\sp-schedule.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:38,976] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\sys\sp-sys.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:39,012] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\sys\sp-user.xml]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2013-12-17 16:14:39,036] :
+Overriding bean definition for bean 'userReportDao': replacing [Generic bean: class [com.microxt.sys.dao.UserReportDao]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\sys\sp-sys.xml]] with [Generic bean: class [com.microxt.sys.dao.UserReportDao]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\sys\sp-user.xml]]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:39,037] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\task\sp-task.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:39,074] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\tookit\sp-webRestful.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:39,099] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\widgets\sp-widgets.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:39,126] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\workflow\sp-commonTpl.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:39,148] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\workflow\sp-const.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:39,177] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\workflow\sp-entrust.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:39,202] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\workflow\sp-flow.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:39,227] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\workflow\sp-flowCategory.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:39,243] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\workflow\sp-flowExecution.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:39,281] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\workflow\sp-flowGroup.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:39,306] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\workflow\sp-form.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:39,337] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\workflow\sp-formAuth.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:39,366] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\workflow\sp-formItem.xml]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2013-12-17 16:14:39,384] :
+Overriding bean definition for bean 'formItemDao': replacing [Generic bean: class [com.microxt.workflow.dao.FormItemDao]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\workflow\sp-formAuth.xml]] with [Generic bean: class [com.microxt.workflow.dao.FormItemDao]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\workflow\sp-formItem.xml]]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:39,386] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\workflow\sp-formUseItem.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:39,409] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\workflow\sp-formValue.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:39,433] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\workflow\sp-jbpm.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:39,460] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\workflow\sp-menu.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:39,484] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\workflow\sp-permission.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:39,511] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\workflow\sp-phrase.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:39,536] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\workflow\sp-taskEntrust.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:39,554] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\workflow\sp-taskHandle.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:39,574] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\workflow\sp-workflow.xml]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2013-12-17 16:14:39,603] :
+Overriding bean definition for bean 'menuAction': replacing [Generic bean: class [com.microxt.workflow.web.MenuAction]; scope=prototype; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\workflow\sp-menu.xml]] with [Generic bean: class [com.microxt.workflow.web.MenuAction]; scope=prototype; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\workflow\sp-workflow.xml]]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:39,607] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\ws\ws-sys-service.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:39,625] :
+Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:39,656] :
+Loading XML bean definitions from class path resource [META-INF/cxf/cxf-servlet.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:39,674] :
+Loading XML bean definitions from class path resource [META-INF/cxf/cxf-extension-soap.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:39,692] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\ws\ws-user-service.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:14:39,944] :
+Loading XML bean definitions from URL [file:/D:/workspaces/microxt/trunk/code/microxt/WebRoot/WEB-INF/classes/freemarker/sp-freemarker.xml]
+[org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:177)] [2013-12-17 16:14:43,407] :
+Loading properties file from class path resource [jdbc.properties]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:555)] [2013-12-17 16:14:43,553] :
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@181b7c76: defining beans [indexAction,authorizationInterceptor,securityCache,securityManager,businessEventPublisher,downLoadFileAction,contactDao,contactScnDao,attentionDao,contactImpl,contactScnBiz,contactAction,docAttachDao,docCenterDao,docCenterBiz,docCenterAction,docCenterEnjoyDao,docCenterEnjoyBiz,docCenterEnjoyAction,docDao,docBiz,docAction,fusionDao,fusionLogDao,fusionScheDao,fusionTaskLogDao,fusionBiz,fusionTaskLogBiz,fusionAction,fusionTaskLogAction,groupDao,groupBiz,groupAction,groupUserAction,logDao,logReviewDao,logTransmitDao,logBiz,logAction,messageCache,messageCacheBiz,messageDao,messageInxDao,messageInxBiz,messageBiz,messageAction,messageLogAction,messageDynamicDao,messageDynamicBiz,messageDynamicReviewDao,messageDynamicAction,messageLetterDao,messageLetterBiz,messageLetterAction,messageTaskDao,messageTaskBiz,messageTaskAction,scheduleReviewDao,scheduleReviewBiz,messageScheduleAction,noticeDao,noticeBiz,noticeAction,noticePermissionDao,personalLetterDao,phoneClientDao,personalLetterBiz,personalLetterAction,personMsgDao,personMsgGroupDao,personMsgBiz,personMsgAction,readerDao,scheduleDao,scheduleBiz,scheduleAction,loginAction,roleDao,moudleDao,moudleBiz,moudleAction,departmentDao,deptManagerDao,departmentBiz,departmentAction,moudleButtonDao,moudleButtonBiz,moudleButtonAction,roleBiz,roleAction,userReportDao,userReportBiz,userReportAction,userDao,userBiz,userAction,taskDao,taskAttentDao,taskLogDao,taskEndDao,taskLogBiz,taskBiz,taskAction,taskLogAction,webRestfulDao,webRestfulBiz,webRestfulAction,hqlCache,hqlDao,widgetsBiz,widgetsAction,commonTplDao,commonTplBiz,commonTplAction,constDao,constBiz,constAction,entrustDao,entrustBiz,entrustAction,flowDao,flowBiz,flowAction,flowCategoryDao,flowCategoryBiz,flowCategoryAction,flowExecutionDao,flowExecutionBiz,flowExecutionAction,flowSubmitBiz,flowMessageBiz,flowSubmitMessageBiz,flowStartMessageBiz,flowEndMessageBiz,flowRollbackMessageBiz,flowGroupDao,flowGroupBiz,flowGroupAction,formDao,formBiz,formAction,formAuthDao,formItemDao,formAuthBiz,formAuthAction,formItemBiz,formItemAction,formUseItemDao,formUseItemBiz,formValueDao,formValueBiz,deploymentService,jbpmQueryService,taskCmdService,processInsCmdService,menuAction,permissionDao,permissionBiz,permissionAction,phraseDao,phraseBiz,phraseAction,taskEntrustDao,taskEntrustBiz,taskHandleDao,taskHandleBiz,menuDao,menuBiz,workFlowIndexAction,operLogDao,operLogBiz,operLogAction,cxf,org.apache.cxf.bus.spring.BusApplicationListener,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.resource.ResourceManager,org.apache.cxf.configuration.Configurer,org.apache.cxf.binding.BindingFactoryManager,org.apache.cxf.transport.DestinationFactoryManager,org.apache.cxf.transport.ConduitInitiatorManager,org.apache.cxf.wsdl.WSDLManager,org.apache.cxf.phase.PhaseManager,org.apache.cxf.workqueue.WorkQueueManager,org.apache.cxf.buslifecycle.BusLifeCycleManager,org.apache.cxf.endpoint.ServerRegistry,org.apache.cxf.endpoint.ServerLifeCycleManager,org.apache.cxf.endpoint.ClientLifeCycleManager,org.apache.cxf.transports.http.QueryHandlerRegistry,org.apache.cxf.endpoint.EndpointResolverRegistry,org.apache.cxf.headers.HeaderManager,org.apache.cxf.catalog.OASISCatalogManager,org.apache.cxf.endpoint.ServiceContractResolverRegistry,org.apache.cxf.transport.servlet.ServletTransportFactory,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,dozer,userService,fmXmlEscape,freemarkerConfig,springContextHolder,springHelper,config,dataSource,sessionFactory,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,docCenterLoginBizImpl,phoneClientServiceImpl,phoneContactServiceImpl,phoneDynamicServiceImpl,phoneFusionLogAndScheServiceImpl,phoneFusionLogServiceImpl,phoneFusionScheServiceImpl,phoneLogReviewServiceImpl,phoneLogServiceImpl,phoneMessageServiceImpl,phoneNoticeBizImpl,phonePersonMsgServiceImpl,phoneScheduleReviewServiceImpl,phoneScheduleServiceImpl,phoneTaskDetailServiceImpl,phoneTaskListServiceImpl,phoneTaskServiceImpl,phoneUserServiceImpl,workflowServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,defaultCacheManager,processEngine,repositoryService,executionService,historyService,managementService,taskService,identityService,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,jbpmQueryMapper,taskMapper]; root of factory hierarchy
+[org.hibernate.cfg.annotations.Version.<clinit>(Version.java:43)] [2013-12-17 16:14:43,827] :
+Hibernate Annotations 3.5.5-Final
+[org.hibernate.cfg.Environment.<clinit>(Environment.java:570)] [2013-12-17 16:14:43,838] :
+Hibernate 3.5.5-Final
+[org.hibernate.cfg.Environment.<clinit>(Environment.java:603)] [2013-12-17 16:14:43,841] :
+hibernate.properties not found
+[org.hibernate.cfg.Environment.buildBytecodeProvider(Environment.java:781)] [2013-12-17 16:14:43,845] :
+Bytecode provider name : javassist
+[org.hibernate.cfg.Environment.<clinit>(Environment.java:662)] [2013-12-17 16:14:43,855] :
+using JDK 1.4 java.sql.Timestamp handling
+[org.hibernate.annotations.common.Version.<clinit>(Version.java:37)] [2013-12-17 16:14:43,964] :
+Hibernate Commons Annotations 3.2.0.Final
+[org.hibernate.cfg.Configuration.configure(Configuration.java:1533)] [2013-12-17 16:14:43,970] :
+configuring from url: file:/D:/workspaces/microxt/trunk/code/microxt/WebRoot/WEB-INF/classes/jbpm.hibernate.cfg.xml
+[org.hibernate.cfg.Configuration.doConfigure(Configuration.java:1633)] [2013-12-17 16:14:44,005] :
+Configured SessionFactory: null
+[org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:348)] [2013-12-17 16:14:44,960] :
+Mapping class: org.jbpm.pvm.internal.repository.DeploymentImpl -> jbpm4_deployment
+[org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:348)] [2013-12-17 16:14:44,994] :
+Mapping class: org.jbpm.pvm.internal.repository.DeploymentProperty -> jbpm4_deployprop
+[org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:348)] [2013-12-17 16:14:45,068] :
+Mapping class: org.jbpm.pvm.internal.id.PropertyImpl -> jbpm4_property
+[org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:348)] [2013-12-17 16:14:45,072] :
+Mapping class: org.jbpm.pvm.internal.model.ExecutionImpl -> jbpm4_execution
+[org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:348)] [2013-12-17 16:14:45,114] :
+Mapping class: org.jbpm.pvm.internal.type.Variable -> jbpm4_variable
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:14:45,148] :
+Mapping subclass: org.jbpm.pvm.internal.type.variable.BlobVariable -> jbpm4_variable
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:14:45,150] :
+Mapping subclass: org.jbpm.pvm.internal.type.variable.DateVariable -> jbpm4_variable
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:14:45,151] :
+Mapping subclass: org.jbpm.pvm.internal.type.variable.DoubleVariable -> jbpm4_variable
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:14:45,151] :
+Mapping subclass: org.jbpm.pvm.internal.type.variable.HibernateLongVariable -> jbpm4_variable
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:14:45,153] :
+Mapping subclass: org.jbpm.pvm.internal.type.variable.HibernateStringVariable -> jbpm4_variable
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:14:45,154] :
+Mapping subclass: org.jbpm.pvm.internal.type.variable.LongVariable -> jbpm4_variable
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:14:45,155] :
+Mapping subclass: org.jbpm.pvm.internal.type.variable.NullVariable -> jbpm4_variable
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:14:45,155] :
+Mapping subclass: org.jbpm.pvm.internal.type.variable.StringVariable -> jbpm4_variable
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:14:45,156] :
+Mapping subclass: org.jbpm.pvm.internal.type.variable.TextVariable -> jbpm4_variable
+[org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:348)] [2013-12-17 16:14:45,157] :
+Mapping class: org.jbpm.pvm.internal.lob.Lob -> jbpm4_lob
+[org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:348)] [2013-12-17 16:14:45,161] :
+Mapping class: org.jbpm.pvm.internal.job.JobImpl -> jbpm4_job
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:14:45,170] :
+Mapping subclass: org.jbpm.pvm.internal.job.MessageImpl -> jbpm4_job
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:14:45,171] :
+Mapping subclass: org.jbpm.pvm.internal.model.op.ExecuteActivityMessage -> jbpm4_job
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:14:45,171] :
+Mapping subclass: org.jbpm.pvm.internal.model.op.ExecuteEventListenerMessage -> jbpm4_job
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:14:45,193] :
+Mapping subclass: org.jbpm.pvm.internal.job.CommandMessage -> jbpm4_job
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:14:45,194] :
+Mapping subclass: org.jbpm.pvm.internal.job.TimerImpl -> jbpm4_job
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:14:45,197] :
+Mapping subclass: org.jbpm.pvm.internal.job.StartProcessTimer -> jbpm4_job
+[org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:348)] [2013-12-17 16:14:45,199] :
+Mapping class: org.jbpm.pvm.internal.history.model.HistoryProcessInstanceImpl -> jbpm4_hist_procinst
+[org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:348)] [2013-12-17 16:14:45,206] :
+Mapping class: org.jbpm.pvm.internal.history.model.HistoryActivityInstanceImpl -> jbpm4_hist_actinst
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:14:45,212] :
+Mapping subclass: org.jbpm.pvm.internal.history.model.HistoryAutomaticInstanceImpl -> jbpm4_hist_actinst
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:14:45,213] :
+Mapping subclass: org.jbpm.pvm.internal.history.model.HistoryDecisionInstanceImpl -> jbpm4_hist_actinst
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:14:45,214] :
+Mapping subclass: org.jbpm.pvm.internal.history.model.HistoryTaskInstanceImpl -> jbpm4_hist_actinst
+[org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:348)] [2013-12-17 16:14:45,216] :
+Mapping class: org.jbpm.pvm.internal.history.model.HistoryTaskImpl -> jbpm4_hist_task
+[org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:348)] [2013-12-17 16:14:45,223] :
+Mapping class: org.jbpm.pvm.internal.history.model.HistoryVariableImpl -> jbpm4_hist_var
+[org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:348)] [2013-12-17 16:14:45,228] :
+Mapping class: org.jbpm.pvm.internal.history.model.HistoryDetailImpl -> jbpm4_hist_detail
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:14:45,233] :
+Mapping subclass: org.jbpm.pvm.internal.history.model.HistoryCommentImpl -> jbpm4_hist_detail
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:14:45,235] :
+Mapping subclass: org.jbpm.pvm.internal.history.model.HistoryProcessInstanceMigrationImpl -> jbpm4_hist_detail
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:14:45,238] :
+Mapping subclass: org.jbpm.pvm.internal.history.model.HistoryPriorityUpdateImpl -> jbpm4_hist_detail
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:14:45,240] :
+Mapping subclass: org.jbpm.pvm.internal.history.model.HistoryTaskAssignmentImpl -> jbpm4_hist_detail
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:14:45,242] :
+Mapping subclass: org.jbpm.pvm.internal.history.model.HistoryTaskDuedateUpdateImpl -> jbpm4_hist_detail
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:14:45,244] :
+Mapping subclass: org.jbpm.pvm.internal.history.model.HistoryVariableUpdateImpl -> jbpm4_hist_detail
+[org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:348)] [2013-12-17 16:14:45,246] :
+Mapping class: org.jbpm.pvm.internal.task.TaskImpl -> jbpm4_task
+[org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:348)] [2013-12-17 16:14:45,259] :
+Mapping class: org.jbpm.pvm.internal.task.ParticipationImpl -> jbpm4_participation
+[org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:348)] [2013-12-17 16:14:45,262] :
+Mapping class: org.jbpm.pvm.internal.task.SwimlaneImpl -> jbpm4_swimlane
+[org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:348)] [2013-12-17 16:14:45,265] :
+Mapping class: org.jbpm.pvm.internal.identity.impl.UserImpl -> jbpm4_id_user
+[org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:348)] [2013-12-17 16:14:45,270] :
+Mapping class: org.jbpm.pvm.internal.identity.impl.MembershipImpl -> jbpm4_id_membership
+[org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:348)] [2013-12-17 16:14:45,273] :
+Mapping class: org.jbpm.pvm.internal.identity.impl.GroupImpl -> jbpm4_id_group
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,309] :
+Binding entity from annotated class: com.microxt.entity.Attention
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,339] :
+Bind entity com.microxt.entity.Attention on table t_attention
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,391] :
+Binding entity from annotated class: com.microxt.entity.Button
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,392] :
+Bind entity com.microxt.entity.Button on table t_button
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,453] :
+Binding entity from annotated class: com.microxt.entity.BuzzAuth
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,455] :
+Bind entity com.microxt.entity.BuzzAuth on table t_buzz_auth
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,468] :
+Binding entity from annotated class: com.microxt.entity.BuzzAuthUser
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,469] :
+Bind entity com.microxt.entity.BuzzAuthUser on table t_buzz_auth_user
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,473] :
+Binding entity from annotated class: com.microxt.entity.ContactScn
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,475] :
+Bind entity com.microxt.entity.ContactScn on table t_contact_scn
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,499] :
+Binding entity from annotated class: com.microxt.entity.Department
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,548] :
+Bind entity com.microxt.entity.Department on table t_department
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,560] :
+Binding entity from annotated class: com.microxt.entity.DeptManager
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,561] :
+Bind entity com.microxt.entity.DeptManager on table t_dept_manager
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,567] :
+Binding entity from annotated class: com.microxt.entity.Dict
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,568] :
+Bind entity com.microxt.entity.Dict on table t_dict
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,573] :
+Binding entity from annotated class: com.microxt.entity.DocAttach
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,575] :
+Bind entity com.microxt.entity.DocAttach on table t_doc_attach
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,588] :
+Binding entity from annotated class: com.microxt.entity.DocCenter
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,589] :
+Bind entity com.microxt.entity.DocCenter on table t_doc_center
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,610] :
+Binding entity from annotated class: com.microxt.entity.DocCenterEnjoy
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,611] :
+Bind entity com.microxt.entity.DocCenterEnjoy on table t_doc_center_enjoy
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,620] :
+Binding entity from annotated class: com.microxt.entity.Dynamic
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,621] :
+Bind entity com.microxt.entity.Dynamic on table t_dynamic
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,630] :
+Binding entity from annotated class: com.microxt.entity.DynamicReview
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,632] :
+Bind entity com.microxt.entity.DynamicReview on table t_dynamic_review
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,639] :
+Binding entity from annotated class: com.microxt.entity.Group
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,641] :
+Bind entity com.microxt.entity.Group on table t_group
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,651] :
+Binding entity from annotated class: com.microxt.entity.Hql
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,653] :
+Bind entity com.microxt.entity.Hql on table t_hql
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,658] :
+Binding entity from annotated class: com.microxt.entity.Log
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,659] :
+Bind entity com.microxt.entity.Log on table t_log
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,674] :
+Binding entity from annotated class: com.microxt.entity.LogReview
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,675] :
+Bind entity com.microxt.entity.LogReview on table t_log_review
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,683] :
+Binding entity from annotated class: com.microxt.entity.LogTransmit
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,685] :
+Bind entity com.microxt.entity.LogTransmit on table t_log_transmit
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,693] :
+Binding entity from annotated class: com.microxt.entity.Menu
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,695] :
+Bind entity com.microxt.entity.Menu on table t_menu
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,700] :
+Binding entity from annotated class: com.microxt.entity.Message
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,702] :
+Bind entity com.microxt.entity.Message on table t_message
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,708] :
+Binding entity from annotated class: com.microxt.entity.MessageInx
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,710] :
+Bind entity com.microxt.entity.MessageInx on table t_message_inx
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,717] :
+Binding entity from annotated class: com.microxt.entity.MessageTpl
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,718] :
+Bind entity com.microxt.entity.MessageTpl on table t_message_tpl
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,722] :
+Binding entity from annotated class: com.microxt.entity.Moudle
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,723] :
+Bind entity com.microxt.entity.Moudle on table t_moudle
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,732] :
+Binding entity from annotated class: com.microxt.entity.Notice
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,733] :
+Bind entity com.microxt.entity.Notice on table t_notice
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,748] :
+Binding entity from annotated class: com.microxt.entity.NoticePermission
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,749] :
+Bind entity com.microxt.entity.NoticePermission on table t_notice_permission
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,753] :
+Binding entity from annotated class: com.microxt.entity.PersonalLetter
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,754] :
+Bind entity com.microxt.entity.PersonalLetter on table t_personal_letter
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,761] :
+Binding entity from annotated class: com.microxt.entity.PersonalMsg
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,763] :
+Bind entity com.microxt.entity.PersonalMsg on table t_personal_msg
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,770] :
+Binding entity from annotated class: com.microxt.entity.PersonalMsgGroup
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,771] :
+Bind entity com.microxt.entity.PersonalMsgGroup on table t_personal_msg_group
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,775] :
+Binding entity from annotated class: com.microxt.entity.PersonalMsgUser
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,776] :
+Bind entity com.microxt.entity.PersonalMsgUser on table t_personal_msg_user
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,782] :
+Binding entity from annotated class: com.microxt.entity.PhoneClient
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,783] :
+Bind entity com.microxt.entity.PhoneClient on table t_phone_client
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,787] :
+Binding entity from annotated class: com.microxt.entity.Reader
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,789] :
+Bind entity com.microxt.entity.Reader on table t_reader
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,793] :
+Binding entity from annotated class: com.microxt.entity.ReportBuzz
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,794] :
+Bind entity com.microxt.entity.ReportBuzz on table t_report_buzz
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,805] :
+Binding entity from annotated class: com.microxt.entity.Role
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,806] :
+Bind entity com.microxt.entity.Role on table t_role
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,813] :
+Binding entity from annotated class: com.microxt.entity.Schedule
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,814] :
+Bind entity com.microxt.entity.Schedule on table t_schedule
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,825] :
+Binding entity from annotated class: com.microxt.entity.ScheduleReview
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,827] :
+Bind entity com.microxt.entity.ScheduleReview on table t_schedule_review
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,832] :
+Binding entity from annotated class: com.microxt.entity.Task
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,834] :
+Bind entity com.microxt.entity.Task on table t_task
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,846] :
+Binding entity from annotated class: com.microxt.entity.TaskAttent
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,847] :
+Bind entity com.microxt.entity.TaskAttent on table t_task_attent
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,850] :
+Binding entity from annotated class: com.microxt.entity.TaskEnd
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,851] :
+Bind entity com.microxt.entity.TaskEnd on table t_task_end
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,854] :
+Binding entity from annotated class: com.microxt.entity.TaskLog
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,855] :
+Bind entity com.microxt.entity.TaskLog on table t_task_log
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,859] :
+Binding entity from annotated class: com.microxt.entity.TaskUser
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,860] :
+Bind entity com.microxt.entity.TaskUser on table t_task_user
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,862] :
+Binding entity from annotated class: com.microxt.entity.User
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,863] :
+Bind entity com.microxt.entity.User on table t_user
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,872] :
+Binding entity from annotated class: com.microxt.entity.UserBelong
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,872] :
+Bind entity com.microxt.entity.UserBelong on table v_user_belong
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,875] :
+Binding entity from annotated class: com.microxt.entity.UserDept
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,876] :
+Bind entity com.microxt.entity.UserDept on table t_user_dept
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,879] :
+Binding entity from annotated class: com.microxt.entity.UserReport
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,880] :
+Bind entity com.microxt.entity.UserReport on table t_user_report
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,884] :
+Binding entity from annotated class: com.microxt.tookit.entity.WebRestful
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,885] :
+Bind entity com.microxt.tookit.entity.WebRestful on table t_web_restful
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,890] :
+Binding entity from annotated class: com.microxt.workflow.entity.CommonTpl
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,891] :
+Bind entity com.microxt.workflow.entity.CommonTpl on table jbpm_common_tpl
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,895] :
+Binding entity from annotated class: com.microxt.workflow.entity.Const
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,896] :
+Bind entity com.microxt.workflow.entity.Const on table jbpm_const
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,899] :
+Binding entity from annotated class: com.microxt.workflow.entity.Entrust
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,900] :
+Bind entity com.microxt.workflow.entity.Entrust on table jbpm_entrust
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,905] :
+Binding entity from annotated class: com.microxt.workflow.entity.Flow
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,906] :
+Bind entity com.microxt.workflow.entity.Flow on table jbpm_flow
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,912] :
+Binding entity from annotated class: com.microxt.workflow.entity.FlowCategory
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,913] :
+Bind entity com.microxt.workflow.entity.FlowCategory on table jbpm_flow_category
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,917] :
+Binding entity from annotated class: com.microxt.workflow.entity.FlowExecution
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,918] :
+Bind entity com.microxt.workflow.entity.FlowExecution on table jbpm_flow_execution
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,929] :
+Binding entity from annotated class: com.microxt.workflow.entity.FlowGroup
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,930] :
+Bind entity com.microxt.workflow.entity.FlowGroup on table jbpm_flow_group
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,935] :
+Binding entity from annotated class: com.microxt.workflow.entity.Form
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,936] :
+Bind entity com.microxt.workflow.entity.Form on table jbpm_form
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,942] :
+Binding entity from annotated class: com.microxt.workflow.entity.FormAuth
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,943] :
+Bind entity com.microxt.workflow.entity.FormAuth on table jbpm_form_auth
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,946] :
+Binding entity from annotated class: com.microxt.workflow.entity.FormItem
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,947] :
+Bind entity com.microxt.workflow.entity.FormItem on table jbpm_form_item
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,952] :
+Binding entity from annotated class: com.microxt.workflow.entity.FormUseItem
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,953] :
+Bind entity com.microxt.workflow.entity.FormUseItem on table jbpm_form_use_item
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,957] :
+Binding entity from annotated class: com.microxt.workflow.entity.FormValue
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,959] :
+Bind entity com.microxt.workflow.entity.FormValue on table jbpm_form_value
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,961] :
+Binding entity from annotated class: com.microxt.workflow.entity.OperLog
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,962] :
+Bind entity com.microxt.workflow.entity.OperLog on table jbpm_oper_log
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,965] :
+Binding entity from annotated class: com.microxt.workflow.entity.Permission
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,966] :
+Bind entity com.microxt.workflow.entity.Permission on table jbpm_permission
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,970] :
+Binding entity from annotated class: com.microxt.workflow.entity.Phrase
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,971] :
+Bind entity com.microxt.workflow.entity.Phrase on table jbpm_phrase
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,973] :
+Binding entity from annotated class: com.microxt.workflow.entity.TaskEntrust
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,974] :
+Bind entity com.microxt.workflow.entity.TaskEntrust on table jbpm_task_entrust
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:14:45,978] :
+Binding entity from annotated class: com.microxt.workflow.entity.TaskHandle
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:14:45,979] :
+Bind entity com.microxt.workflow.entity.TaskHandle on table jbpm_task_handle
+[org.hibernate.cfg.annotations.CollectionBinder.bindOneToManySecondPass(CollectionBinder.java:729)] [2013-12-17 16:14:46,003] :
+Mapping collection: com.microxt.entity.Notice.readers -> t_reader
+[org.hibernate.cfg.annotations.CollectionBinder.bindOneToManySecondPass(CollectionBinder.java:729)] [2013-12-17 16:14:46,004] :
+Mapping collection: com.microxt.entity.Notice.noticePermissions -> t_notice_permission
+[org.hibernate.cfg.HbmBinder.bindCollectionSecondPass(HbmBinder.java:2478)] [2013-12-17 16:14:46,007] :
+Mapping collection: org.jbpm.pvm.internal.repository.DeploymentImpl.resources -> jbpm4_lob
+[org.hibernate.cfg.HbmBinder.bindCollectionSecondPass(HbmBinder.java:2478)] [2013-12-17 16:14:46,009] :
+Mapping collection: org.jbpm.pvm.internal.repository.DeploymentImpl.objectProperties -> jbpm4_deployprop
+[org.hibernate.cfg.HbmBinder.bindCollectionSecondPass(HbmBinder.java:2478)] [2013-12-17 16:14:46,010] :
+Mapping collection: org.jbpm.pvm.internal.model.ExecutionImpl.variables -> jbpm4_variable
+[org.hibernate.cfg.HbmBinder.bindCollectionSecondPass(HbmBinder.java:2478)] [2013-12-17 16:14:46,011] :
+Mapping collection: org.jbpm.pvm.internal.model.ExecutionImpl.systemVariables -> jbpm4_variable
+[org.hibernate.cfg.HbmBinder.bindCollectionSecondPass(HbmBinder.java:2478)] [2013-12-17 16:14:46,012] :
+Mapping collection: org.jbpm.pvm.internal.model.ExecutionImpl.executions -> jbpm4_execution
+[org.hibernate.cfg.HbmBinder.bindCollectionSecondPass(HbmBinder.java:2478)] [2013-12-17 16:14:46,013] :
+Mapping collection: org.jbpm.pvm.internal.model.ExecutionImpl.swimlanes -> jbpm4_swimlane
+[org.hibernate.cfg.HbmBinder.bindCollectionSecondPass(HbmBinder.java:2478)] [2013-12-17 16:14:46,013] :
+Mapping collection: org.jbpm.pvm.internal.history.model.HistoryProcessInstanceImpl.historyActivityInstances -> jbpm4_hist_actinst
+[org.hibernate.cfg.HbmBinder.bindCollectionSecondPass(HbmBinder.java:2478)] [2013-12-17 16:14:46,014] :
+Mapping collection: org.jbpm.pvm.internal.history.model.HistoryProcessInstanceImpl.historyVariables -> jbpm4_hist_var
+[org.hibernate.cfg.HbmBinder.bindCollectionSecondPass(HbmBinder.java:2478)] [2013-12-17 16:14:46,014] :
+Mapping collection: org.jbpm.pvm.internal.history.model.HistoryProcessInstanceImpl.details -> jbpm4_hist_detail
+[org.hibernate.cfg.HbmBinder.bindCollectionSecondPass(HbmBinder.java:2478)] [2013-12-17 16:14:46,015] :
+Mapping collection: org.jbpm.pvm.internal.history.model.HistoryActivityInstanceImpl.details -> jbpm4_hist_detail
+[org.hibernate.cfg.HbmBinder.bindCollectionSecondPass(HbmBinder.java:2478)] [2013-12-17 16:14:46,015] :
+Mapping collection: org.jbpm.pvm.internal.history.model.HistoryTaskImpl.details -> jbpm4_hist_detail
+[org.hibernate.cfg.HbmBinder.bindCollectionSecondPass(HbmBinder.java:2478)] [2013-12-17 16:14:46,017] :
+Mapping collection: org.jbpm.pvm.internal.history.model.HistoryTaskImpl.historyVariables -> jbpm4_hist_var
+[org.hibernate.cfg.HbmBinder.bindCollectionSecondPass(HbmBinder.java:2478)] [2013-12-17 16:14:46,018] :
+Mapping collection: org.jbpm.pvm.internal.history.model.HistoryTaskImpl.subTasks -> jbpm4_hist_task
+[org.hibernate.cfg.HbmBinder.bindCollectionSecondPass(HbmBinder.java:2478)] [2013-12-17 16:14:46,019] :
+Mapping collection: org.jbpm.pvm.internal.history.model.HistoryVariableImpl.details -> jbpm4_hist_detail
+[org.hibernate.cfg.HbmBinder.bindCollectionSecondPass(HbmBinder.java:2478)] [2013-12-17 16:14:46,019] :
+Mapping collection: org.jbpm.pvm.internal.history.model.HistoryCommentImpl.replies -> jbpm4_hist_detail
+[org.hibernate.cfg.HbmBinder.bindCollectionSecondPass(HbmBinder.java:2478)] [2013-12-17 16:14:46,020] :
+Mapping collection: org.jbpm.pvm.internal.task.TaskImpl.participations -> jbpm4_participation
+[org.hibernate.cfg.HbmBinder.bindCollectionSecondPass(HbmBinder.java:2478)] [2013-12-17 16:14:46,021] :
+Mapping collection: org.jbpm.pvm.internal.task.TaskImpl.variables -> jbpm4_variable
+[org.hibernate.cfg.HbmBinder.bindCollectionSecondPass(HbmBinder.java:2478)] [2013-12-17 16:14:46,021] :
+Mapping collection: org.jbpm.pvm.internal.task.TaskImpl.subTasks -> jbpm4_task
+[org.hibernate.cfg.HbmBinder.bindCollectionSecondPass(HbmBinder.java:2478)] [2013-12-17 16:14:46,022] :
+Mapping collection: org.jbpm.pvm.internal.task.SwimlaneImpl.participations -> jbpm4_participation
+[org.hibernate.cfg.annotations.CollectionBinder.bindOneToManySecondPass(CollectionBinder.java:729)] [2013-12-17 16:14:46,023] :
+Mapping collection: com.microxt.entity.Department.deptManagers -> t_dept_manager
+[org.hibernate.cfg.annotations.CollectionBinder.bindOneToManySecondPass(CollectionBinder.java:729)] [2013-12-17 16:14:46,023] :
+Mapping collection: com.microxt.entity.Department.users -> t_user
+[org.hibernate.cfg.annotations.CollectionBinder.bindOneToManySecondPass(CollectionBinder.java:729)] [2013-12-17 16:14:46,025] :
+Mapping collection: com.microxt.entity.DocCenter.docCenters -> t_doc_center
+[org.hibernate.cfg.annotations.CollectionBinder.bindOneToManySecondPass(CollectionBinder.java:729)] [2013-12-17 16:14:46,026] :
+Mapping collection: com.microxt.entity.Dynamic.reviewss -> t_dynamic_review
+[org.hibernate.cfg.annotations.CollectionBinder.bindOneToManySecondPass(CollectionBinder.java:729)] [2013-12-17 16:14:46,026] :
+Mapping collection: com.microxt.entity.Log.logReviews -> t_log_review
+[org.hibernate.cfg.annotations.CollectionBinder.bindOneToManySecondPass(CollectionBinder.java:729)] [2013-12-17 16:14:46,027] :
+Mapping collection: com.microxt.entity.Log.logTransmits -> t_log_transmit
+[org.hibernate.cfg.annotations.CollectionBinder.bindOneToManySecondPass(CollectionBinder.java:729)] [2013-12-17 16:14:46,028] :
+Mapping collection: com.microxt.entity.Moudle.buttons -> t_button
+[org.hibernate.cfg.annotations.CollectionBinder.bindOneToManySecondPass(CollectionBinder.java:729)] [2013-12-17 16:14:46,028] :
+Mapping collection: com.microxt.entity.Moudle.moudles -> t_moudle
+[org.hibernate.cfg.annotations.CollectionBinder.bindOneToManySecondPass(CollectionBinder.java:729)] [2013-12-17 16:14:46,029] :
+Mapping collection: com.microxt.entity.PersonalMsgGroup.personalMsgUsers -> t_personal_msg_user
+[org.hibernate.cfg.annotations.CollectionBinder.bindOneToManySecondPass(CollectionBinder.java:729)] [2013-12-17 16:14:46,030] :
+Mapping collection: com.microxt.entity.Schedule.scheduleReviews -> t_schedule_review
+[org.hibernate.cfg.annotations.CollectionBinder.bindOneToManySecondPass(CollectionBinder.java:729)] [2013-12-17 16:14:46,030] :
+Mapping collection: com.microxt.entity.Task.taskAttents -> t_task_attent
+[org.hibernate.cfg.annotations.CollectionBinder.bindOneToManySecondPass(CollectionBinder.java:729)] [2013-12-17 16:14:46,031] :
+Mapping collection: com.microxt.entity.Task.taskEnds -> t_task_end
+[org.hibernate.cfg.annotations.CollectionBinder.bindOneToManySecondPass(CollectionBinder.java:729)] [2013-12-17 16:14:46,032] :
+Mapping collection: com.microxt.entity.Task.taskUsers -> t_task_user
+[org.hibernate.cfg.annotations.CollectionBinder.bindOneToManySecondPass(CollectionBinder.java:729)] [2013-12-17 16:14:46,032] :
+Mapping collection: com.microxt.entity.UserReport.reportBuzzs -> t_report_buzz
+[org.hibernate.cfg.annotations.CollectionBinder.bindOneToManySecondPass(CollectionBinder.java:729)] [2013-12-17 16:14:46,033] :
+Mapping collection: com.microxt.workflow.entity.Form.formItems -> jbpm_form_item
+[org.hibernate.cfg.AnnotationConfiguration.applyHibernateValidatorLegacyConstraintsOnDDL(AnnotationConfiguration.java:450)] [2013-12-17 16:14:46,035] :
+Hibernate Validator not found: ignoring
+[org.springframework.orm.hibernate3.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:772)] [2013-12-17 16:14:46,038] :
+Building new Hibernate SessionFactory
+[org.hibernate.cfg.search.HibernateSearchEventListenerRegister.enableHibernateSearch(HibernateSearchEventListenerRegister.java:75)] [2013-12-17 16:14:46,044] :
+Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+[org.hibernate.connection.ConnectionProviderFactory.initializeConnectionProviderFromConfig(ConnectionProviderFactory.java:173)] [2013-12-17 16:14:46,093] :
+Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:117)] [2013-12-17 16:14:46,761] :
+RDBMS: Oracle, version: Oracle Database 11g Release 11.1.0.0.0 - Production
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:118)] [2013-12-17 16:14:46,761] :
+JDBC driver: Oracle JDBC driver, version: 10.2.0.4.0
+[org.hibernate.dialect.Dialect.<init>(Dialect.java:206)] [2013-12-17 16:14:46,777] :
+Using dialect: org.hibernate.dialect.Oracle10gDialect
+[org.hibernate.engine.jdbc.JdbcSupportLoader.useContextualLobCreation(JdbcSupportLoader.java:108)] [2013-12-17 16:14:46,781] :
+Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+[org.hibernate.transaction.TransactionFactoryFactory.buildTransactionFactory(TransactionFactoryFactory.java:62)] [2013-12-17 16:14:46,782] :
+Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+[org.hibernate.transaction.TransactionManagerLookupFactory.getTransactionManagerLookup(TransactionManagerLookupFactory.java:80)] [2013-12-17 16:14:46,783] :
+No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:169)] [2013-12-17 16:14:46,784] :
+Automatic flush during beforeCompletion(): disabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:173)] [2013-12-17 16:14:46,784] :
+Automatic session close at end of transaction: disabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:180)] [2013-12-17 16:14:46,784] :
+JDBC batch size: 15
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:183)] [2013-12-17 16:14:46,785] :
+JDBC batch updates for versioned data: disabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:188)] [2013-12-17 16:14:46,785] :
+Scrollable result sets: enabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:196)] [2013-12-17 16:14:46,786] :
+JDBC3 getGeneratedKeys(): disabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:204)] [2013-12-17 16:14:46,786] :
+Connection release mode: auto
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:228)] [2013-12-17 16:14:46,787] :
+Maximum outer join fetch depth: 0
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:231)] [2013-12-17 16:14:46,787] :
+Default batch fetch size: 4
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:235)] [2013-12-17 16:14:46,787] :
+Generate SQL with comments: disabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:239)] [2013-12-17 16:14:46,787] :
+Order SQL updates by primary key: disabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:243)] [2013-12-17 16:14:46,788] :
+Order SQL inserts for batching: disabled
+[org.hibernate.cfg.SettingsFactory.createQueryTranslatorFactory(SettingsFactory.java:410)] [2013-12-17 16:14:46,788] :
+Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[org.hibernate.hql.ast.ASTQueryTranslatorFactory.<init>(ASTQueryTranslatorFactory.java:47)] [2013-12-17 16:14:46,789] :
+Using ASTQueryTranslatorFactory
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:251)] [2013-12-17 16:14:46,790] :
+Query language substitutions: {}
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:256)] [2013-12-17 16:14:46,790] :
+JPA-QL strict compliance: disabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:261)] [2013-12-17 16:14:46,790] :
+Second-level cache: enabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:265)] [2013-12-17 16:14:46,791] :
+Query cache: disabled
+[org.hibernate.cfg.SettingsFactory.createRegionFactory(SettingsFactory.java:395)] [2013-12-17 16:14:46,791] :
+Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:275)] [2013-12-17 16:14:46,791] :
+Optimize cache for minimal puts: disabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:284)] [2013-12-17 16:14:46,792] :
+Structured second-level cache entries: disabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:304)] [2013-12-17 16:14:46,795] :
+Echoing all SQL to stdout
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:313)] [2013-12-17 16:14:46,796] :
+Statistics: enabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:317)] [2013-12-17 16:14:46,796] :
+Deleted entity synthetic identifier rollback: disabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:332)] [2013-12-17 16:14:46,797] :
+Default entity-mode: pojo
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:336)] [2013-12-17 16:14:46,797] :
+Named query checking : enabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:340)] [2013-12-17 16:14:46,797] :
+Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+[org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:199)] [2013-12-17 16:14:46,825] :
+building session factory
+[org.hibernate.impl.SessionFactoryObjectFactory.addInstance(SessionFactoryObjectFactory.java:105)] [2013-12-17 16:14:47,883] :
+Not binding factory to JNDI, no JNDI name configured
+[org.springframework.cache.ehcache.EhCacheManagerFactoryBean.afterPropertiesSet(EhCacheManagerFactoryBean.java:99)] [2013-12-17 16:14:48,241] :
+Initializing EHCache CacheManager
+[org.springframework.orm.hibernate3.HibernateTransactionManager.afterPropertiesSet(HibernateTransactionManager.java:415)] [2013-12-17 16:14:49,510] :
+Using DataSource [org.apache.commons.dbcp.BasicDataSource@3e3e3c83] of Hibernate SessionFactory for HibernateTransactionManager
+[org.hibernate.stat.ConcurrentStatisticsImpl.queryExecuted(ConcurrentStatisticsImpl.java:316)] [2013-12-17 16:14:49,673] :
+HQL: from org.jbpm.pvm.internal.id.PropertyImpl, time: 112ms, rows: 1
+[org.jbpm.internal.log.Log4jLog.info(Log4jLog.java:50)] [2013-12-17 16:14:49,693] :
+jBPM version info: library[4.4-SNAPSHOT], schema[null]
+[org.dozer.util.InitLogger.log(InitLogger.java:45)] [2013-12-17 16:14:51,897] :
+Trying to find Dozer configuration file: dozer.properties
+[org.dozer.util.InitLogger.log(InitLogger.java:45)] [2013-12-17 16:14:51,898] :
+Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[org.dozer.util.InitLogger.log(InitLogger.java:45)] [2013-12-17 16:14:51,900] :
+Initializing Dozer.  Version: 5.2.1, Thread Name:main
+[org.dozer.util.InitLogger.log(InitLogger.java:45)] [2013-12-17 16:14:52,087] :
+Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[org.dozer.util.InitLogger.log(InitLogger.java:45)] [2013-12-17 16:14:52,089] :
+Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[org.dozer.util.InitLogger.log(InitLogger.java:45)] [2013-12-17 16:14:52,095] :
+Initializing a new instance of the dozer bean mapper.
+[org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass(ReflectionServiceFactoryBean.java:399)] [2013-12-17 16:14:52,201] :
+Creating Service {http://www.springframework.org/schema/beans}userService from class com.microxt.service.IPhoneUserService
+[org.apache.cxf.endpoint.ServerImpl.initDestination(ServerImpl.java:93)] [2013-12-17 16:14:52,382] :
+Setting the server's publish address to be /userService
+[org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:214)] [2013-12-17 16:14:52,674] :
+Root WebApplicationContext: initialization completed in 14764 ms
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.info(CommonsLogger.java:42)] [2013-12-17 16:14:52,839] :
+Parsing configuration file [struts-default.xml]
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.info(CommonsLogger.java:42)] [2013-12-17 16:14:52,909] :
+Parsing configuration file [struts-plugin.xml]
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.info(CommonsLogger.java:42)] [2013-12-17 16:14:53,538] :
+Parsing configuration file [struts.xml]
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.info(CommonsLogger.java:42)] [2013-12-17 16:14:53,544] :
+Loading global messages from globalMessages
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.info(CommonsLogger.java:42)] [2013-12-17 16:14:53,604] :
+Initializing Struts-Spring integration...
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.info(CommonsLogger.java:42)] [2013-12-17 16:14:53,605] :
+Setting autowire strategy to name
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.info(CommonsLogger.java:42)] [2013-12-17 16:14:53,605] :
+... initialized Struts-Spring integration successfully
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.warn(CommonsLogger.java:56)] [2013-12-17 16:14:54,102] :
+no default parameter defined for result of type json
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.warn(CommonsLogger.java:56)] [2013-12-17 16:14:54,103] :
+no default parameter defined for result of type json
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.warn(CommonsLogger.java:56)] [2013-12-17 16:14:54,118] :
+no default parameter defined for result of type json
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.warn(CommonsLogger.java:56)] [2013-12-17 16:14:54,119] :
+no default parameter defined for result of type json
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.warn(CommonsLogger.java:56)] [2013-12-17 16:14:54,120] :
+no default parameter defined for result of type json
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.warn(CommonsLogger.java:56)] [2013-12-17 16:14:54,121] :
+no default parameter defined for result of type json
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.warn(CommonsLogger.java:56)] [2013-12-17 16:14:54,123] :
+no default parameter defined for result of type json
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.warn(CommonsLogger.java:56)] [2013-12-17 16:14:54,124] :
+no default parameter defined for result of type json
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.warn(CommonsLogger.java:56)] [2013-12-17 16:14:54,125] :
+no default parameter defined for result of type json
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.warn(CommonsLogger.java:56)] [2013-12-17 16:14:54,132] :
+no default parameter defined for result of type json
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.warn(CommonsLogger.java:56)] [2013-12-17 16:14:54,133] :
+no default parameter defined for result of type json
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.warn(CommonsLogger.java:56)] [2013-12-17 16:14:54,134] :
+no default parameter defined for result of type json
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.warn(CommonsLogger.java:56)] [2013-12-17 16:14:54,135] :
+no default parameter defined for result of type json
+[org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:187)] [2013-12-17 16:19:06,000] :
+Root WebApplicationContext: initialization started
+[org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:456)] [2013-12-17 16:19:06,035] :
+Refreshing Root WebApplicationContext: startup date [Tue Dec 17 16:19:06 CST 2013]; root of context hierarchy
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:06,075] :
+Loading XML bean definitions from URL [file:/D:/workspaces/microxt/trunk/code/microxt/WebRoot/WEB-INF/classes/applicationContext.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:06,365] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\app\sp-app.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:06,409] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\contact\sp-contact.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:06,439] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\doc\sp-doc.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:06,458] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\doccenter\sp-doccenter.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:06,481] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\doccenter\sp-doccenterenjoy.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:06,501] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\document\sp-document.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:06,530] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\fusion\sp-fusion.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:06,557] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\group\sp-group.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:06,581] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\log\sp-log.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:06,607] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\message\sp-message.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:06,637] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\notice\sp-notice.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:06,659] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\noticePermission\sp-noticePermission.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:06,677] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\personalLetter\sp-personalLetter.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:06,700] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\personMsg\sp-personMsg.xml]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2013-12-17 16:19:06,720] :
+Overriding bean definition for bean 'phoneClientDao': replacing [Generic bean: class [com.microxt.personMsg.dao.PhoneClientDao]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\personalLetter\sp-personalLetter.xml]] with [Generic bean: class [com.microxt.personMsg.dao.PhoneClientDao]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\personMsg\sp-personMsg.xml]]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:06,723] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\reader\sp-reader.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:06,740] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\schedule\sp-schedule.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:06,756] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\sys\sp-sys.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:06,785] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\sys\sp-user.xml]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2013-12-17 16:19:06,804] :
+Overriding bean definition for bean 'userReportDao': replacing [Generic bean: class [com.microxt.sys.dao.UserReportDao]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\sys\sp-sys.xml]] with [Generic bean: class [com.microxt.sys.dao.UserReportDao]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\sys\sp-user.xml]]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:06,804] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\task\sp-task.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:06,829] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\tookit\sp-webRestful.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:06,850] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\widgets\sp-widgets.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:06,873] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\workflow\sp-commonTpl.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:06,889] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\workflow\sp-const.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:06,910] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\workflow\sp-entrust.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:06,930] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\workflow\sp-flow.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:06,957] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\workflow\sp-flowCategory.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:06,978] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\workflow\sp-flowExecution.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:07,005] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\workflow\sp-flowGroup.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:07,027] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\workflow\sp-form.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:07,046] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\workflow\sp-formAuth.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:07,066] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\workflow\sp-formItem.xml]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2013-12-17 16:19:07,087] :
+Overriding bean definition for bean 'formItemDao': replacing [Generic bean: class [com.microxt.workflow.dao.FormItemDao]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\workflow\sp-formAuth.xml]] with [Generic bean: class [com.microxt.workflow.dao.FormItemDao]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\workflow\sp-formItem.xml]]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:07,090] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\workflow\sp-formUseItem.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:07,110] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\workflow\sp-formValue.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:07,128] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\workflow\sp-jbpm.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:07,155] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\workflow\sp-menu.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:07,178] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\workflow\sp-permission.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:07,202] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\workflow\sp-phrase.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:07,231] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\workflow\sp-taskEntrust.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:07,245] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\workflow\sp-taskHandle.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:07,261] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\workflow\sp-workflow.xml]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:618)] [2013-12-17 16:19:07,282] :
+Overriding bean definition for bean 'menuAction': replacing [Generic bean: class [com.microxt.workflow.web.MenuAction]; scope=prototype; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\workflow\sp-menu.xml]] with [Generic bean: class [com.microxt.workflow.web.MenuAction]; scope=prototype; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\biz\workflow\sp-workflow.xml]]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:07,288] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\ws\ws-sys-service.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:07,310] :
+Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:07,351] :
+Loading XML bean definitions from class path resource [META-INF/cxf/cxf-servlet.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:07,367] :
+Loading XML bean definitions from class path resource [META-INF/cxf/cxf-extension-soap.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:07,387] :
+Loading XML bean definitions from file [D:\workspaces\microxt\trunk\code\microxt\WebRoot\WEB-INF\classes\ws\ws-user-service.xml]
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)] [2013-12-17 16:19:07,519] :
+Loading XML bean definitions from URL [file:/D:/workspaces/microxt/trunk/code/microxt/WebRoot/WEB-INF/classes/freemarker/sp-freemarker.xml]
+[org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:177)] [2013-12-17 16:19:08,842] :
+Loading properties file from class path resource [jdbc.properties]
+[org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:555)] [2013-12-17 16:19:09,011] :
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@239c7c21: defining beans [indexAction,authorizationInterceptor,securityCache,securityManager,businessEventPublisher,downLoadFileAction,contactDao,contactScnDao,attentionDao,contactImpl,contactScnBiz,contactAction,docAttachDao,docCenterDao,docCenterBiz,docCenterAction,docCenterEnjoyDao,docCenterEnjoyBiz,docCenterEnjoyAction,docDao,docBiz,docAction,fusionDao,fusionLogDao,fusionScheDao,fusionTaskLogDao,fusionBiz,fusionTaskLogBiz,fusionAction,fusionTaskLogAction,groupDao,groupBiz,groupAction,groupUserAction,logDao,logReviewDao,logTransmitDao,logBiz,logAction,messageCache,messageCacheBiz,messageDao,messageInxDao,messageInxBiz,messageBiz,messageAction,messageLogAction,messageDynamicDao,messageDynamicBiz,messageDynamicReviewDao,messageDynamicAction,messageLetterDao,messageLetterBiz,messageLetterAction,messageTaskDao,messageTaskBiz,messageTaskAction,scheduleReviewDao,scheduleReviewBiz,messageScheduleAction,noticeDao,noticeBiz,noticeAction,noticePermissionDao,personalLetterDao,phoneClientDao,personalLetterBiz,personalLetterAction,personMsgDao,personMsgGroupDao,personMsgBiz,personMsgAction,readerDao,scheduleDao,scheduleBiz,scheduleAction,loginAction,roleDao,moudleDao,moudleBiz,moudleAction,departmentDao,deptManagerDao,departmentBiz,departmentAction,moudleButtonDao,moudleButtonBiz,moudleButtonAction,roleBiz,roleAction,userReportDao,userReportBiz,userReportAction,userDao,userBiz,userAction,taskDao,taskAttentDao,taskLogDao,taskEndDao,taskLogBiz,taskBiz,taskAction,taskLogAction,webRestfulDao,webRestfulBiz,webRestfulAction,hqlCache,hqlDao,widgetsBiz,widgetsAction,commonTplDao,commonTplBiz,commonTplAction,constDao,constBiz,constAction,entrustDao,entrustBiz,entrustAction,flowDao,flowBiz,flowAction,flowCategoryDao,flowCategoryBiz,flowCategoryAction,flowExecutionDao,flowExecutionBiz,flowExecutionAction,flowSubmitBiz,flowMessageBiz,flowSubmitMessageBiz,flowStartMessageBiz,flowEndMessageBiz,flowRollbackMessageBiz,flowGroupDao,flowGroupBiz,flowGroupAction,formDao,formBiz,formAction,formAuthDao,formItemDao,formAuthBiz,formAuthAction,formItemBiz,formItemAction,formUseItemDao,formUseItemBiz,formValueDao,formValueBiz,deploymentService,jbpmQueryService,taskCmdService,processInsCmdService,menuAction,permissionDao,permissionBiz,permissionAction,phraseDao,phraseBiz,phraseAction,taskEntrustDao,taskEntrustBiz,taskHandleDao,taskHandleBiz,menuDao,menuBiz,workFlowIndexAction,operLogDao,operLogBiz,operLogAction,cxf,org.apache.cxf.bus.spring.BusApplicationListener,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.resource.ResourceManager,org.apache.cxf.configuration.Configurer,org.apache.cxf.binding.BindingFactoryManager,org.apache.cxf.transport.DestinationFactoryManager,org.apache.cxf.transport.ConduitInitiatorManager,org.apache.cxf.wsdl.WSDLManager,org.apache.cxf.phase.PhaseManager,org.apache.cxf.workqueue.WorkQueueManager,org.apache.cxf.buslifecycle.BusLifeCycleManager,org.apache.cxf.endpoint.ServerRegistry,org.apache.cxf.endpoint.ServerLifeCycleManager,org.apache.cxf.endpoint.ClientLifeCycleManager,org.apache.cxf.transports.http.QueryHandlerRegistry,org.apache.cxf.endpoint.EndpointResolverRegistry,org.apache.cxf.headers.HeaderManager,org.apache.cxf.catalog.OASISCatalogManager,org.apache.cxf.endpoint.ServiceContractResolverRegistry,org.apache.cxf.transport.servlet.ServletTransportFactory,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,dozer,userService,fmXmlEscape,freemarkerConfig,springContextHolder,springHelper,config,dataSource,sessionFactory,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,docCenterLoginBizImpl,phoneClientServiceImpl,phoneContactServiceImpl,phoneDynamicServiceImpl,phoneFusionLogAndScheServiceImpl,phoneFusionLogServiceImpl,phoneFusionScheServiceImpl,phoneLogReviewServiceImpl,phoneLogServiceImpl,phoneMessageServiceImpl,phoneNoticeBizImpl,phonePersonMsgServiceImpl,phoneScheduleReviewServiceImpl,phoneScheduleServiceImpl,phoneTaskDetailServiceImpl,phoneTaskListServiceImpl,phoneTaskServiceImpl,phoneUserServiceImpl,workflowServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,defaultCacheManager,processEngine,repositoryService,executionService,historyService,managementService,taskService,identityService,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,jbpmQueryMapper,taskMapper]; root of factory hierarchy
+[org.hibernate.cfg.annotations.Version.<clinit>(Version.java:43)] [2013-12-17 16:19:09,146] :
+Hibernate Annotations 3.5.5-Final
+[org.hibernate.cfg.Environment.<clinit>(Environment.java:570)] [2013-12-17 16:19:09,154] :
+Hibernate 3.5.5-Final
+[org.hibernate.cfg.Environment.<clinit>(Environment.java:603)] [2013-12-17 16:19:09,156] :
+hibernate.properties not found
+[org.hibernate.cfg.Environment.buildBytecodeProvider(Environment.java:781)] [2013-12-17 16:19:09,159] :
+Bytecode provider name : javassist
+[org.hibernate.cfg.Environment.<clinit>(Environment.java:662)] [2013-12-17 16:19:09,162] :
+using JDK 1.4 java.sql.Timestamp handling
+[org.hibernate.annotations.common.Version.<clinit>(Version.java:37)] [2013-12-17 16:19:09,240] :
+Hibernate Commons Annotations 3.2.0.Final
+[org.hibernate.cfg.Configuration.configure(Configuration.java:1533)] [2013-12-17 16:19:09,247] :
+configuring from url: file:/D:/workspaces/microxt/trunk/code/microxt/WebRoot/WEB-INF/classes/jbpm.hibernate.cfg.xml
+[org.hibernate.cfg.Configuration.doConfigure(Configuration.java:1633)] [2013-12-17 16:19:09,279] :
+Configured SessionFactory: null
+[org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:348)] [2013-12-17 16:19:09,794] :
+Mapping class: org.jbpm.pvm.internal.repository.DeploymentImpl -> jbpm4_deployment
+[org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:348)] [2013-12-17 16:19:09,816] :
+Mapping class: org.jbpm.pvm.internal.repository.DeploymentProperty -> jbpm4_deployprop
+[org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:348)] [2013-12-17 16:19:09,863] :
+Mapping class: org.jbpm.pvm.internal.id.PropertyImpl -> jbpm4_property
+[org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:348)] [2013-12-17 16:19:09,868] :
+Mapping class: org.jbpm.pvm.internal.model.ExecutionImpl -> jbpm4_execution
+[org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:348)] [2013-12-17 16:19:09,898] :
+Mapping class: org.jbpm.pvm.internal.type.Variable -> jbpm4_variable
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:19:09,921] :
+Mapping subclass: org.jbpm.pvm.internal.type.variable.BlobVariable -> jbpm4_variable
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:19:09,922] :
+Mapping subclass: org.jbpm.pvm.internal.type.variable.DateVariable -> jbpm4_variable
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:19:09,923] :
+Mapping subclass: org.jbpm.pvm.internal.type.variable.DoubleVariable -> jbpm4_variable
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:19:09,924] :
+Mapping subclass: org.jbpm.pvm.internal.type.variable.HibernateLongVariable -> jbpm4_variable
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:19:09,925] :
+Mapping subclass: org.jbpm.pvm.internal.type.variable.HibernateStringVariable -> jbpm4_variable
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:19:09,926] :
+Mapping subclass: org.jbpm.pvm.internal.type.variable.LongVariable -> jbpm4_variable
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:19:09,927] :
+Mapping subclass: org.jbpm.pvm.internal.type.variable.NullVariable -> jbpm4_variable
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:19:09,928] :
+Mapping subclass: org.jbpm.pvm.internal.type.variable.StringVariable -> jbpm4_variable
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:19:09,928] :
+Mapping subclass: org.jbpm.pvm.internal.type.variable.TextVariable -> jbpm4_variable
+[org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:348)] [2013-12-17 16:19:09,929] :
+Mapping class: org.jbpm.pvm.internal.lob.Lob -> jbpm4_lob
+[org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:348)] [2013-12-17 16:19:09,932] :
+Mapping class: org.jbpm.pvm.internal.job.JobImpl -> jbpm4_job
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:19:09,936] :
+Mapping subclass: org.jbpm.pvm.internal.job.MessageImpl -> jbpm4_job
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:19:09,937] :
+Mapping subclass: org.jbpm.pvm.internal.model.op.ExecuteActivityMessage -> jbpm4_job
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:19:09,938] :
+Mapping subclass: org.jbpm.pvm.internal.model.op.ExecuteEventListenerMessage -> jbpm4_job
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:19:09,939] :
+Mapping subclass: org.jbpm.pvm.internal.job.CommandMessage -> jbpm4_job
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:19:09,940] :
+Mapping subclass: org.jbpm.pvm.internal.job.TimerImpl -> jbpm4_job
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:19:09,942] :
+Mapping subclass: org.jbpm.pvm.internal.job.StartProcessTimer -> jbpm4_job
+[org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:348)] [2013-12-17 16:19:09,944] :
+Mapping class: org.jbpm.pvm.internal.history.model.HistoryProcessInstanceImpl -> jbpm4_hist_procinst
+[org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:348)] [2013-12-17 16:19:09,949] :
+Mapping class: org.jbpm.pvm.internal.history.model.HistoryActivityInstanceImpl -> jbpm4_hist_actinst
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:19:09,952] :
+Mapping subclass: org.jbpm.pvm.internal.history.model.HistoryAutomaticInstanceImpl -> jbpm4_hist_actinst
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:19:09,953] :
+Mapping subclass: org.jbpm.pvm.internal.history.model.HistoryDecisionInstanceImpl -> jbpm4_hist_actinst
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:19:09,955] :
+Mapping subclass: org.jbpm.pvm.internal.history.model.HistoryTaskInstanceImpl -> jbpm4_hist_actinst
+[org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:348)] [2013-12-17 16:19:09,956] :
+Mapping class: org.jbpm.pvm.internal.history.model.HistoryTaskImpl -> jbpm4_hist_task
+[org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:348)] [2013-12-17 16:19:09,963] :
+Mapping class: org.jbpm.pvm.internal.history.model.HistoryVariableImpl -> jbpm4_hist_var
+[org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:348)] [2013-12-17 16:19:09,968] :
+Mapping class: org.jbpm.pvm.internal.history.model.HistoryDetailImpl -> jbpm4_hist_detail
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:19:09,973] :
+Mapping subclass: org.jbpm.pvm.internal.history.model.HistoryCommentImpl -> jbpm4_hist_detail
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:19:09,975] :
+Mapping subclass: org.jbpm.pvm.internal.history.model.HistoryProcessInstanceMigrationImpl -> jbpm4_hist_detail
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:19:09,977] :
+Mapping subclass: org.jbpm.pvm.internal.history.model.HistoryPriorityUpdateImpl -> jbpm4_hist_detail
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:19:09,979] :
+Mapping subclass: org.jbpm.pvm.internal.history.model.HistoryTaskAssignmentImpl -> jbpm4_hist_detail
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:19:09,981] :
+Mapping subclass: org.jbpm.pvm.internal.history.model.HistoryTaskDuedateUpdateImpl -> jbpm4_hist_detail
+[org.hibernate.cfg.HbmBinder.bindSubclass(HbmBinder.java:867)] [2013-12-17 16:19:09,983] :
+Mapping subclass: org.jbpm.pvm.internal.history.model.HistoryVariableUpdateImpl -> jbpm4_hist_detail
+[org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:348)] [2013-12-17 16:19:09,985] :
+Mapping class: org.jbpm.pvm.internal.task.TaskImpl -> jbpm4_task
+[org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:348)] [2013-12-17 16:19:09,996] :
+Mapping class: org.jbpm.pvm.internal.task.ParticipationImpl -> jbpm4_participation
+[org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:348)] [2013-12-17 16:19:09,999] :
+Mapping class: org.jbpm.pvm.internal.task.SwimlaneImpl -> jbpm4_swimlane
+[org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:348)] [2013-12-17 16:19:10,012] :
+Mapping class: org.jbpm.pvm.internal.identity.impl.UserImpl -> jbpm4_id_user
+[org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:348)] [2013-12-17 16:19:10,016] :
+Mapping class: org.jbpm.pvm.internal.identity.impl.MembershipImpl -> jbpm4_id_membership
+[org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:348)] [2013-12-17 16:19:10,019] :
+Mapping class: org.jbpm.pvm.internal.identity.impl.GroupImpl -> jbpm4_id_group
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,047] :
+Binding entity from annotated class: com.microxt.entity.Attention
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,076] :
+Bind entity com.microxt.entity.Attention on table t_attention
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,130] :
+Binding entity from annotated class: com.microxt.entity.Button
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,131] :
+Bind entity com.microxt.entity.Button on table t_button
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,162] :
+Binding entity from annotated class: com.microxt.entity.BuzzAuth
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,163] :
+Bind entity com.microxt.entity.BuzzAuth on table t_buzz_auth
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,173] :
+Binding entity from annotated class: com.microxt.entity.BuzzAuthUser
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,175] :
+Bind entity com.microxt.entity.BuzzAuthUser on table t_buzz_auth_user
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,178] :
+Binding entity from annotated class: com.microxt.entity.ContactScn
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,179] :
+Bind entity com.microxt.entity.ContactScn on table t_contact_scn
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,185] :
+Binding entity from annotated class: com.microxt.entity.Department
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,186] :
+Bind entity com.microxt.entity.Department on table t_department
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,198] :
+Binding entity from annotated class: com.microxt.entity.DeptManager
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,200] :
+Bind entity com.microxt.entity.DeptManager on table t_dept_manager
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,205] :
+Binding entity from annotated class: com.microxt.entity.Dict
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,207] :
+Bind entity com.microxt.entity.Dict on table t_dict
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,212] :
+Binding entity from annotated class: com.microxt.entity.DocAttach
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,214] :
+Bind entity com.microxt.entity.DocAttach on table t_doc_attach
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,227] :
+Binding entity from annotated class: com.microxt.entity.DocCenter
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,228] :
+Bind entity com.microxt.entity.DocCenter on table t_doc_center
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,250] :
+Binding entity from annotated class: com.microxt.entity.DocCenterEnjoy
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,252] :
+Bind entity com.microxt.entity.DocCenterEnjoy on table t_doc_center_enjoy
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,260] :
+Binding entity from annotated class: com.microxt.entity.Dynamic
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,262] :
+Bind entity com.microxt.entity.Dynamic on table t_dynamic
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,271] :
+Binding entity from annotated class: com.microxt.entity.DynamicReview
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,273] :
+Bind entity com.microxt.entity.DynamicReview on table t_dynamic_review
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,279] :
+Binding entity from annotated class: com.microxt.entity.Group
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,280] :
+Bind entity com.microxt.entity.Group on table t_group
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,288] :
+Binding entity from annotated class: com.microxt.entity.Hql
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,290] :
+Bind entity com.microxt.entity.Hql on table t_hql
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,294] :
+Binding entity from annotated class: com.microxt.entity.Log
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,296] :
+Bind entity com.microxt.entity.Log on table t_log
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,311] :
+Binding entity from annotated class: com.microxt.entity.LogReview
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,313] :
+Bind entity com.microxt.entity.LogReview on table t_log_review
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,322] :
+Binding entity from annotated class: com.microxt.entity.LogTransmit
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,324] :
+Bind entity com.microxt.entity.LogTransmit on table t_log_transmit
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,333] :
+Binding entity from annotated class: com.microxt.entity.Menu
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,335] :
+Bind entity com.microxt.entity.Menu on table t_menu
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,341] :
+Binding entity from annotated class: com.microxt.entity.Message
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,343] :
+Bind entity com.microxt.entity.Message on table t_message
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,349] :
+Binding entity from annotated class: com.microxt.entity.MessageInx
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,351] :
+Bind entity com.microxt.entity.MessageInx on table t_message_inx
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,361] :
+Binding entity from annotated class: com.microxt.entity.MessageTpl
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,363] :
+Bind entity com.microxt.entity.MessageTpl on table t_message_tpl
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,369] :
+Binding entity from annotated class: com.microxt.entity.Moudle
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,371] :
+Bind entity com.microxt.entity.Moudle on table t_moudle
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,385] :
+Binding entity from annotated class: com.microxt.entity.Notice
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,387] :
+Bind entity com.microxt.entity.Notice on table t_notice
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,410] :
+Binding entity from annotated class: com.microxt.entity.NoticePermission
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,412] :
+Bind entity com.microxt.entity.NoticePermission on table t_notice_permission
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,419] :
+Binding entity from annotated class: com.microxt.entity.PersonalLetter
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,421] :
+Bind entity com.microxt.entity.PersonalLetter on table t_personal_letter
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,435] :
+Binding entity from annotated class: com.microxt.entity.PersonalMsg
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,437] :
+Bind entity com.microxt.entity.PersonalMsg on table t_personal_msg
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,451] :
+Binding entity from annotated class: com.microxt.entity.PersonalMsgGroup
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,453] :
+Bind entity com.microxt.entity.PersonalMsgGroup on table t_personal_msg_group
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,461] :
+Binding entity from annotated class: com.microxt.entity.PersonalMsgUser
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,462] :
+Bind entity com.microxt.entity.PersonalMsgUser on table t_personal_msg_user
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,468] :
+Binding entity from annotated class: com.microxt.entity.PhoneClient
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,470] :
+Bind entity com.microxt.entity.PhoneClient on table t_phone_client
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,479] :
+Binding entity from annotated class: com.microxt.entity.Reader
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,481] :
+Bind entity com.microxt.entity.Reader on table t_reader
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,490] :
+Binding entity from annotated class: com.microxt.entity.ReportBuzz
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,492] :
+Bind entity com.microxt.entity.ReportBuzz on table t_report_buzz
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,497] :
+Binding entity from annotated class: com.microxt.entity.Role
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,499] :
+Bind entity com.microxt.entity.Role on table t_role
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,512] :
+Binding entity from annotated class: com.microxt.entity.Schedule
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,514] :
+Bind entity com.microxt.entity.Schedule on table t_schedule
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,537] :
+Binding entity from annotated class: com.microxt.entity.ScheduleReview
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,539] :
+Bind entity com.microxt.entity.ScheduleReview on table t_schedule_review
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,548] :
+Binding entity from annotated class: com.microxt.entity.Task
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,550] :
+Bind entity com.microxt.entity.Task on table t_task
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,577] :
+Binding entity from annotated class: com.microxt.entity.TaskAttent
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,578] :
+Bind entity com.microxt.entity.TaskAttent on table t_task_attent
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,584] :
+Binding entity from annotated class: com.microxt.entity.TaskEnd
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,586] :
+Bind entity com.microxt.entity.TaskEnd on table t_task_end
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,594] :
+Binding entity from annotated class: com.microxt.entity.TaskLog
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,597] :
+Bind entity com.microxt.entity.TaskLog on table t_task_log
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,607] :
+Binding entity from annotated class: com.microxt.entity.TaskUser
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,609] :
+Bind entity com.microxt.entity.TaskUser on table t_task_user
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,614] :
+Binding entity from annotated class: com.microxt.entity.User
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,616] :
+Bind entity com.microxt.entity.User on table t_user
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,640] :
+Binding entity from annotated class: com.microxt.entity.UserBelong
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,642] :
+Bind entity com.microxt.entity.UserBelong on table v_user_belong
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,648] :
+Binding entity from annotated class: com.microxt.entity.UserDept
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,650] :
+Bind entity com.microxt.entity.UserDept on table t_user_dept
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,658] :
+Binding entity from annotated class: com.microxt.entity.UserReport
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,660] :
+Bind entity com.microxt.entity.UserReport on table t_user_report
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,671] :
+Binding entity from annotated class: com.microxt.tookit.entity.WebRestful
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,673] :
+Bind entity com.microxt.tookit.entity.WebRestful on table t_web_restful
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,686] :
+Binding entity from annotated class: com.microxt.workflow.entity.CommonTpl
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,688] :
+Bind entity com.microxt.workflow.entity.CommonTpl on table jbpm_common_tpl
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,698] :
+Binding entity from annotated class: com.microxt.workflow.entity.Const
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,762] :
+Bind entity com.microxt.workflow.entity.Const on table jbpm_const
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,769] :
+Binding entity from annotated class: com.microxt.workflow.entity.Entrust
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,773] :
+Bind entity com.microxt.workflow.entity.Entrust on table jbpm_entrust
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,785] :
+Binding entity from annotated class: com.microxt.workflow.entity.Flow
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,787] :
+Bind entity com.microxt.workflow.entity.Flow on table jbpm_flow
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,801] :
+Binding entity from annotated class: com.microxt.workflow.entity.FlowCategory
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,803] :
+Bind entity com.microxt.workflow.entity.FlowCategory on table jbpm_flow_category
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,814] :
+Binding entity from annotated class: com.microxt.workflow.entity.FlowExecution
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,816] :
+Bind entity com.microxt.workflow.entity.FlowExecution on table jbpm_flow_execution
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,839] :
+Binding entity from annotated class: com.microxt.workflow.entity.FlowGroup
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,841] :
+Bind entity com.microxt.workflow.entity.FlowGroup on table jbpm_flow_group
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,848] :
+Binding entity from annotated class: com.microxt.workflow.entity.Form
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,849] :
+Bind entity com.microxt.workflow.entity.Form on table jbpm_form
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,861] :
+Binding entity from annotated class: com.microxt.workflow.entity.FormAuth
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,863] :
+Bind entity com.microxt.workflow.entity.FormAuth on table jbpm_form_auth
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,869] :
+Binding entity from annotated class: com.microxt.workflow.entity.FormItem
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,871] :
+Bind entity com.microxt.workflow.entity.FormItem on table jbpm_form_item
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,883] :
+Binding entity from annotated class: com.microxt.workflow.entity.FormUseItem
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,884] :
+Bind entity com.microxt.workflow.entity.FormUseItem on table jbpm_form_use_item
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,893] :
+Binding entity from annotated class: com.microxt.workflow.entity.FormValue
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,895] :
+Bind entity com.microxt.workflow.entity.FormValue on table jbpm_form_value
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,901] :
+Binding entity from annotated class: com.microxt.workflow.entity.OperLog
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,903] :
+Bind entity com.microxt.workflow.entity.OperLog on table jbpm_oper_log
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,909] :
+Binding entity from annotated class: com.microxt.workflow.entity.Permission
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,910] :
+Bind entity com.microxt.workflow.entity.Permission on table jbpm_permission
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,919] :
+Binding entity from annotated class: com.microxt.workflow.entity.Phrase
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,920] :
+Bind entity com.microxt.workflow.entity.Phrase on table jbpm_phrase
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,926] :
+Binding entity from annotated class: com.microxt.workflow.entity.TaskEntrust
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,928] :
+Bind entity com.microxt.workflow.entity.TaskEntrust on table jbpm_task_entrust
+[org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:529)] [2013-12-17 16:19:10,937] :
+Binding entity from annotated class: com.microxt.workflow.entity.TaskHandle
+[org.hibernate.cfg.annotations.EntityBinder.bindTable(EntityBinder.java:501)] [2013-12-17 16:19:10,939] :
+Bind entity com.microxt.workflow.entity.TaskHandle on table jbpm_task_handle
+[org.hibernate.cfg.annotations.CollectionBinder.bindOneToManySecondPass(CollectionBinder.java:729)] [2013-12-17 16:19:10,970] :
+Mapping collection: com.microxt.entity.Notice.readers -> t_reader
+[org.hibernate.cfg.annotations.CollectionBinder.bindOneToManySecondPass(CollectionBinder.java:729)] [2013-12-17 16:19:10,971] :
+Mapping collection: com.microxt.entity.Notice.noticePermissions -> t_notice_permission
+[org.hibernate.cfg.HbmBinder.bindCollectionSecondPass(HbmBinder.java:2478)] [2013-12-17 16:19:10,979] :
+Mapping collection: org.jbpm.pvm.internal.repository.DeploymentImpl.resources -> jbpm4_lob
+[org.hibernate.cfg.HbmBinder.bindCollectionSecondPass(HbmBinder.java:2478)] [2013-12-17 16:19:10,981] :
+Mapping collection: org.jbpm.pvm.internal.repository.DeploymentImpl.objectProperties -> jbpm4_deployprop
+[org.hibernate.cfg.HbmBinder.bindCollectionSecondPass(HbmBinder.java:2478)] [2013-12-17 16:19:10,982] :
+Mapping collection: org.jbpm.pvm.internal.model.ExecutionImpl.variables -> jbpm4_variable
+[org.hibernate.cfg.HbmBinder.bindCollectionSecondPass(HbmBinder.java:2478)] [2013-12-17 16:19:10,984] :
+Mapping collection: org.jbpm.pvm.internal.model.ExecutionImpl.systemVariables -> jbpm4_variable
+[org.hibernate.cfg.HbmBinder.bindCollectionSecondPass(HbmBinder.java:2478)] [2013-12-17 16:19:10,986] :
+Mapping collection: org.jbpm.pvm.internal.model.ExecutionImpl.executions -> jbpm4_execution
+[org.hibernate.cfg.HbmBinder.bindCollectionSecondPass(HbmBinder.java:2478)] [2013-12-17 16:19:10,988] :
+Mapping collection: org.jbpm.pvm.internal.model.ExecutionImpl.swimlanes -> jbpm4_swimlane
+[org.hibernate.cfg.HbmBinder.bindCollectionSecondPass(HbmBinder.java:2478)] [2013-12-17 16:19:10,990] :
+Mapping collection: org.jbpm.pvm.internal.history.model.HistoryProcessInstanceImpl.historyActivityInstances -> jbpm4_hist_actinst
+[org.hibernate.cfg.HbmBinder.bindCollectionSecondPass(HbmBinder.java:2478)] [2013-12-17 16:19:10,992] :
+Mapping collection: org.jbpm.pvm.internal.history.model.HistoryProcessInstanceImpl.historyVariables -> jbpm4_hist_var
+[org.hibernate.cfg.HbmBinder.bindCollectionSecondPass(HbmBinder.java:2478)] [2013-12-17 16:19:10,993] :
+Mapping collection: org.jbpm.pvm.internal.history.model.HistoryProcessInstanceImpl.details -> jbpm4_hist_detail
+[org.hibernate.cfg.HbmBinder.bindCollectionSecondPass(HbmBinder.java:2478)] [2013-12-17 16:19:10,995] :
+Mapping collection: org.jbpm.pvm.internal.history.model.HistoryActivityInstanceImpl.details -> jbpm4_hist_detail
+[org.hibernate.cfg.HbmBinder.bindCollectionSecondPass(HbmBinder.java:2478)] [2013-12-17 16:19:10,997] :
+Mapping collection: org.jbpm.pvm.internal.history.model.HistoryTaskImpl.details -> jbpm4_hist_detail
+[org.hibernate.cfg.HbmBinder.bindCollectionSecondPass(HbmBinder.java:2478)] [2013-12-17 16:19:10,998] :
+Mapping collection: org.jbpm.pvm.internal.history.model.HistoryTaskImpl.historyVariables -> jbpm4_hist_var
+[org.hibernate.cfg.HbmBinder.bindCollectionSecondPass(HbmBinder.java:2478)] [2013-12-17 16:19:11,000] :
+Mapping collection: org.jbpm.pvm.internal.history.model.HistoryTaskImpl.subTasks -> jbpm4_hist_task
+[org.hibernate.cfg.HbmBinder.bindCollectionSecondPass(HbmBinder.java:2478)] [2013-12-17 16:19:11,001] :
+Mapping collection: org.jbpm.pvm.internal.history.model.HistoryVariableImpl.details -> jbpm4_hist_detail
+[org.hibernate.cfg.HbmBinder.bindCollectionSecondPass(HbmBinder.java:2478)] [2013-12-17 16:19:11,004] :
+Mapping collection: org.jbpm.pvm.internal.history.model.HistoryCommentImpl.replies -> jbpm4_hist_detail
+[org.hibernate.cfg.HbmBinder.bindCollectionSecondPass(HbmBinder.java:2478)] [2013-12-17 16:19:11,007] :
+Mapping collection: org.jbpm.pvm.internal.task.TaskImpl.participations -> jbpm4_participation
+[org.hibernate.cfg.HbmBinder.bindCollectionSecondPass(HbmBinder.java:2478)] [2013-12-17 16:19:11,009] :
+Mapping collection: org.jbpm.pvm.internal.task.TaskImpl.variables -> jbpm4_variable
+[org.hibernate.cfg.HbmBinder.bindCollectionSecondPass(HbmBinder.java:2478)] [2013-12-17 16:19:11,010] :
+Mapping collection: org.jbpm.pvm.internal.task.TaskImpl.subTasks -> jbpm4_task
+[org.hibernate.cfg.HbmBinder.bindCollectionSecondPass(HbmBinder.java:2478)] [2013-12-17 16:19:11,012] :
+Mapping collection: org.jbpm.pvm.internal.task.SwimlaneImpl.participations -> jbpm4_participation
+[org.hibernate.cfg.annotations.CollectionBinder.bindOneToManySecondPass(CollectionBinder.java:729)] [2013-12-17 16:19:11,014] :
+Mapping collection: com.microxt.entity.Department.deptManagers -> t_dept_manager
+[org.hibernate.cfg.annotations.CollectionBinder.bindOneToManySecondPass(CollectionBinder.java:729)] [2013-12-17 16:19:11,016] :
+Mapping collection: com.microxt.entity.Department.users -> t_user
+[org.hibernate.cfg.annotations.CollectionBinder.bindOneToManySecondPass(CollectionBinder.java:729)] [2013-12-17 16:19:11,019] :
+Mapping collection: com.microxt.entity.DocCenter.docCenters -> t_doc_center
+[org.hibernate.cfg.annotations.CollectionBinder.bindOneToManySecondPass(CollectionBinder.java:729)] [2013-12-17 16:19:11,021] :
+Mapping collection: com.microxt.entity.Dynamic.reviewss -> t_dynamic_review
+[org.hibernate.cfg.annotations.CollectionBinder.bindOneToManySecondPass(CollectionBinder.java:729)] [2013-12-17 16:19:11,022] :
+Mapping collection: com.microxt.entity.Log.logReviews -> t_log_review
+[org.hibernate.cfg.annotations.CollectionBinder.bindOneToManySecondPass(CollectionBinder.java:729)] [2013-12-17 16:19:11,024] :
+Mapping collection: com.microxt.entity.Log.logTransmits -> t_log_transmit
+[org.hibernate.cfg.annotations.CollectionBinder.bindOneToManySecondPass(CollectionBinder.java:729)] [2013-12-17 16:19:11,025] :
+Mapping collection: com.microxt.entity.Moudle.buttons -> t_button
+[org.hibernate.cfg.annotations.CollectionBinder.bindOneToManySecondPass(CollectionBinder.java:729)] [2013-12-17 16:19:11,027] :
+Mapping collection: com.microxt.entity.Moudle.moudles -> t_moudle
+[org.hibernate.cfg.annotations.CollectionBinder.bindOneToManySecondPass(CollectionBinder.java:729)] [2013-12-17 16:19:11,029] :
+Mapping collection: com.microxt.entity.PersonalMsgGroup.personalMsgUsers -> t_personal_msg_user
+[org.hibernate.cfg.annotations.CollectionBinder.bindOneToManySecondPass(CollectionBinder.java:729)] [2013-12-17 16:19:11,030] :
+Mapping collection: com.microxt.entity.Schedule.scheduleReviews -> t_schedule_review
+[org.hibernate.cfg.annotations.CollectionBinder.bindOneToManySecondPass(CollectionBinder.java:729)] [2013-12-17 16:19:11,032] :
+Mapping collection: com.microxt.entity.Task.taskAttents -> t_task_attent
+[org.hibernate.cfg.annotations.CollectionBinder.bindOneToManySecondPass(CollectionBinder.java:729)] [2013-12-17 16:19:11,033] :
+Mapping collection: com.microxt.entity.Task.taskEnds -> t_task_end
+[org.hibernate.cfg.annotations.CollectionBinder.bindOneToManySecondPass(CollectionBinder.java:729)] [2013-12-17 16:19:11,035] :
+Mapping collection: com.microxt.entity.Task.taskUsers -> t_task_user
+[org.hibernate.cfg.annotations.CollectionBinder.bindOneToManySecondPass(CollectionBinder.java:729)] [2013-12-17 16:19:11,036] :
+Mapping collection: com.microxt.entity.UserReport.reportBuzzs -> t_report_buzz
+[org.hibernate.cfg.annotations.CollectionBinder.bindOneToManySecondPass(CollectionBinder.java:729)] [2013-12-17 16:19:11,037] :
+Mapping collection: com.microxt.workflow.entity.Form.formItems -> jbpm_form_item
+[org.hibernate.cfg.AnnotationConfiguration.applyHibernateValidatorLegacyConstraintsOnDDL(AnnotationConfiguration.java:450)] [2013-12-17 16:19:11,042] :
+Hibernate Validator not found: ignoring
+[org.springframework.orm.hibernate3.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:772)] [2013-12-17 16:19:11,046] :
+Building new Hibernate SessionFactory
+[org.hibernate.cfg.search.HibernateSearchEventListenerRegister.enableHibernateSearch(HibernateSearchEventListenerRegister.java:75)] [2013-12-17 16:19:11,052] :
+Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+[org.hibernate.connection.ConnectionProviderFactory.initializeConnectionProviderFromConfig(ConnectionProviderFactory.java:173)] [2013-12-17 16:19:11,105] :
+Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:117)] [2013-12-17 16:19:11,879] :
+RDBMS: Oracle, version: Oracle Database 11g Release 11.1.0.0.0 - Production
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:118)] [2013-12-17 16:19:11,880] :
+JDBC driver: Oracle JDBC driver, version: 10.2.0.4.0
+[org.hibernate.dialect.Dialect.<init>(Dialect.java:206)] [2013-12-17 16:19:11,899] :
+Using dialect: org.hibernate.dialect.Oracle10gDialect
+[org.hibernate.engine.jdbc.JdbcSupportLoader.useContextualLobCreation(JdbcSupportLoader.java:108)] [2013-12-17 16:19:11,904] :
+Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+[org.hibernate.transaction.TransactionFactoryFactory.buildTransactionFactory(TransactionFactoryFactory.java:62)] [2013-12-17 16:19:11,905] :
+Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+[org.hibernate.transaction.TransactionManagerLookupFactory.getTransactionManagerLookup(TransactionManagerLookupFactory.java:80)] [2013-12-17 16:19:11,907] :
+No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:169)] [2013-12-17 16:19:11,907] :
+Automatic flush during beforeCompletion(): disabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:173)] [2013-12-17 16:19:11,908] :
+Automatic session close at end of transaction: disabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:180)] [2013-12-17 16:19:11,908] :
+JDBC batch size: 15
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:183)] [2013-12-17 16:19:11,909] :
+JDBC batch updates for versioned data: disabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:188)] [2013-12-17 16:19:11,910] :
+Scrollable result sets: enabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:196)] [2013-12-17 16:19:11,910] :
+JDBC3 getGeneratedKeys(): disabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:204)] [2013-12-17 16:19:11,911] :
+Connection release mode: auto
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:228)] [2013-12-17 16:19:11,912] :
+Maximum outer join fetch depth: 0
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:231)] [2013-12-17 16:19:11,912] :
+Default batch fetch size: 4
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:235)] [2013-12-17 16:19:11,913] :
+Generate SQL with comments: disabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:239)] [2013-12-17 16:19:11,913] :
+Order SQL updates by primary key: disabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:243)] [2013-12-17 16:19:11,913] :
+Order SQL inserts for batching: disabled
+[org.hibernate.cfg.SettingsFactory.createQueryTranslatorFactory(SettingsFactory.java:410)] [2013-12-17 16:19:11,914] :
+Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[org.hibernate.hql.ast.ASTQueryTranslatorFactory.<init>(ASTQueryTranslatorFactory.java:47)] [2013-12-17 16:19:11,916] :
+Using ASTQueryTranslatorFactory
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:251)] [2013-12-17 16:19:11,916] :
+Query language substitutions: {}
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:256)] [2013-12-17 16:19:11,916] :
+JPA-QL strict compliance: disabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:261)] [2013-12-17 16:19:11,917] :
+Second-level cache: enabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:265)] [2013-12-17 16:19:11,917] :
+Query cache: disabled
+[org.hibernate.cfg.SettingsFactory.createRegionFactory(SettingsFactory.java:395)] [2013-12-17 16:19:11,917] :
+Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:275)] [2013-12-17 16:19:11,917] :
+Optimize cache for minimal puts: disabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:284)] [2013-12-17 16:19:11,918] :
+Structured second-level cache entries: disabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:304)] [2013-12-17 16:19:11,920] :
+Echoing all SQL to stdout
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:313)] [2013-12-17 16:19:11,921] :
+Statistics: enabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:317)] [2013-12-17 16:19:11,922] :
+Deleted entity synthetic identifier rollback: disabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:332)] [2013-12-17 16:19:11,922] :
+Default entity-mode: pojo
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:336)] [2013-12-17 16:19:11,922] :
+Named query checking : enabled
+[org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:340)] [2013-12-17 16:19:11,922] :
+Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+[org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:199)] [2013-12-17 16:19:11,943] :
+building session factory
+[org.hibernate.impl.SessionFactoryObjectFactory.addInstance(SessionFactoryObjectFactory.java:105)] [2013-12-17 16:19:13,049] :
+Not binding factory to JNDI, no JNDI name configured
+[org.springframework.cache.ehcache.EhCacheManagerFactoryBean.afterPropertiesSet(EhCacheManagerFactoryBean.java:99)] [2013-12-17 16:19:13,398] :
+Initializing EHCache CacheManager
+[org.springframework.orm.hibernate3.HibernateTransactionManager.afterPropertiesSet(HibernateTransactionManager.java:415)] [2013-12-17 16:19:14,344] :
+Using DataSource [org.apache.commons.dbcp.BasicDataSource@3e4f7537] of Hibernate SessionFactory for HibernateTransactionManager
+[org.hibernate.stat.ConcurrentStatisticsImpl.queryExecuted(ConcurrentStatisticsImpl.java:316)] [2013-12-17 16:19:14,510] :
+HQL: from org.jbpm.pvm.internal.id.PropertyImpl, time: 100ms, rows: 1
+[org.jbpm.internal.log.Log4jLog.info(Log4jLog.java:50)] [2013-12-17 16:19:14,521] :
+jBPM version info: library[4.4-SNAPSHOT], schema[null]
+[org.dozer.util.InitLogger.log(InitLogger.java:45)] [2013-12-17 16:19:16,340] :
+Trying to find Dozer configuration file: dozer.properties
+[org.dozer.util.InitLogger.log(InitLogger.java:45)] [2013-12-17 16:19:16,342] :
+Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[org.dozer.util.InitLogger.log(InitLogger.java:45)] [2013-12-17 16:19:16,345] :
+Initializing Dozer.  Version: 5.2.1, Thread Name:main
+[org.dozer.util.InitLogger.log(InitLogger.java:45)] [2013-12-17 16:19:16,400] :
+Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[org.dozer.util.InitLogger.log(InitLogger.java:45)] [2013-12-17 16:19:16,402] :
+Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[org.dozer.util.InitLogger.log(InitLogger.java:45)] [2013-12-17 16:19:16,409] :
+Initializing a new instance of the dozer bean mapper.
+[org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass(ReflectionServiceFactoryBean.java:399)] [2013-12-17 16:19:16,526] :
+Creating Service {http://www.springframework.org/schema/beans}userService from class com.microxt.service.IPhoneUserService
+[org.apache.cxf.endpoint.ServerImpl.initDestination(ServerImpl.java:93)] [2013-12-17 16:19:16,751] :
+Setting the server's publish address to be /userService
+[org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:214)] [2013-12-17 16:19:17,162] :
+Root WebApplicationContext: initialization completed in 11160 ms
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.info(CommonsLogger.java:42)] [2013-12-17 16:19:17,275] :
+Parsing configuration file [struts-default.xml]
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.info(CommonsLogger.java:42)] [2013-12-17 16:19:17,348] :
+Parsing configuration file [struts-plugin.xml]
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.info(CommonsLogger.java:42)] [2013-12-17 16:19:17,650] :
+Parsing configuration file [struts.xml]
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.info(CommonsLogger.java:42)] [2013-12-17 16:19:17,655] :
+Loading global messages from globalMessages
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.info(CommonsLogger.java:42)] [2013-12-17 16:19:17,701] :
+Initializing Struts-Spring integration...
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.info(CommonsLogger.java:42)] [2013-12-17 16:19:17,702] :
+Setting autowire strategy to name
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.info(CommonsLogger.java:42)] [2013-12-17 16:19:17,702] :
+... initialized Struts-Spring integration successfully
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.warn(CommonsLogger.java:56)] [2013-12-17 16:19:18,037] :
+no default parameter defined for result of type json
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.warn(CommonsLogger.java:56)] [2013-12-17 16:19:18,038] :
+no default parameter defined for result of type json
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.warn(CommonsLogger.java:56)] [2013-12-17 16:19:18,054] :
+no default parameter defined for result of type json
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.warn(CommonsLogger.java:56)] [2013-12-17 16:19:18,054] :
+no default parameter defined for result of type json
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.warn(CommonsLogger.java:56)] [2013-12-17 16:19:18,055] :
+no default parameter defined for result of type json
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.warn(CommonsLogger.java:56)] [2013-12-17 16:19:18,056] :
+no default parameter defined for result of type json
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.warn(CommonsLogger.java:56)] [2013-12-17 16:19:18,058] :
+no default parameter defined for result of type json
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.warn(CommonsLogger.java:56)] [2013-12-17 16:19:18,059] :
+no default parameter defined for result of type json
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.warn(CommonsLogger.java:56)] [2013-12-17 16:19:18,061] :
+no default parameter defined for result of type json
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.warn(CommonsLogger.java:56)] [2013-12-17 16:19:18,068] :
+no default parameter defined for result of type json
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.warn(CommonsLogger.java:56)] [2013-12-17 16:19:18,069] :
+no default parameter defined for result of type json
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.warn(CommonsLogger.java:56)] [2013-12-17 16:19:18,070] :
+no default parameter defined for result of type json
+[com.opensymphony.xwork2.util.logging.commons.CommonsLogger.warn(CommonsLogger.java:56)] [2013-12-17 16:19:18,070] :
+no default parameter defined for result of type json
+[com.microxt.utils.JsonMapper.fromJson(JsonMapper.java:96)] [2013-12-17 16:21:46,607] :
+parse json string error:{password=123456, logno=chenlei}
+com.fasterxml.jackson.core.JsonParseException: Unexpected character ('p' (code 112)): was expecting double-quote to start field name
+ at [Source: java.io.StringReader@462c65f5; line: 1, column: 3]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1378)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:599)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:520)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._handleUnusualFieldName(ReaderBasedJsonParser.java:1275)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._parseFieldName(ReaderBasedJsonParser.java:1170)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:611)
+	at com.fasterxml.jackson.databind.deser.std.MapDeserializer._readAndBindStringMap(MapDeserializer.java:411)
+	at com.fasterxml.jackson.databind.deser.std.MapDeserializer.deserialize(MapDeserializer.java:310)
+	at com.fasterxml.jackson.databind.deser.std.MapDeserializer.deserialize(MapDeserializer.java:26)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:2797)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:1943)
+	at com.microxt.utils.JsonMapper.fromJson(JsonMapper.java:94)
+	at com.microxt.service.impl.DocCenterLoginBizImpl.docLogin(DocCenterLoginBizImpl.java:71)
+	at com.microxt.service.impl.DocCenterLoginBizImpl$$FastClassByCGLIB$$c3fc725d.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:191)
+	at org.springframework.aop.framework.Cglib2AopProxy$CglibMethodInvocation.invokeJoinpoint(Cglib2AopProxy.java:688)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:110)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:621)
+	at com.microxt.service.impl.DocCenterLoginBizImpl$$EnhancerByCGLIB$$90b5b919.docLogin(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$TypeOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:165)
+	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:67)
+	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:276)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:133)
+	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:83)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:133)
+	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:71)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1171)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1103)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1053)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1043)
+	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:406)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:477)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:662)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1166)
+	at org.springframework.orm.hibernate3.support.OpenSessionInViewFilter.doFilterInternal(OpenSessionInViewFilter.java:198)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1157)
+	at org.springframework.web.filter.AbstractRequestLoggingFilter.doFilterInternal(AbstractRequestLoggingFilter.java:193)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1157)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:388)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:440)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:943)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:756)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.jetty.bio.SocketConnector$Connection.run(SocketConnector.java:228)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
